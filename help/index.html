@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>日本のアドバイス – Ajuda</title>
+  <link rel="stylesheet" href="../css/style.css?v=7" />
+  <link rel="stylesheet" href="../fonts/fonts.css?v=13" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <style>
+    .help-page-section {
+      max-width: 960px;
+      margin: 2.5rem auto;
+      padding: 0 1.5rem;
+    }
+    .help-page-section h1 {
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      margin-bottom: 1.5rem;
+      letter-spacing: 0.03em;
+    }
+    .help-page-section h2 {
+      font-size: clamp(1.1rem, 3vw, 1.4rem);
+      margin: 2rem 0 0.8rem;
+      border-bottom: 2px solid var(--clr-accent, #111);
+      padding-bottom: 0.3rem;
+    }
+    .help-page-section p {
+      line-height: 1.7;
+      margin-bottom: 0.75rem;
+      color: #333;
+    }
+    .chart-wrap {
+      margin: 1.5rem 0 2rem;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    }
+    .chart-wrap img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .shortcut-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+    }
+    .shortcut-table th {
+      text-align: left;
+      padding: 0.55rem 0.8rem;
+      background: #111;
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+    .shortcut-table td {
+      padding: 0.5rem 0.8rem;
+      border-bottom: 1px solid #e0e0e0;
+      vertical-align: top;
+    }
+    .shortcut-table tr:last-child td {
+      border-bottom: none;
+    }
+    .shortcut-table tr:nth-child(even) td {
+      background: #f7f7f7;
+    }
+    .key-badge {
+      display: inline-block;
+      background: #222;
+      color: #fff;
+      border-radius: 5px;
+      padding: 0.1em 0.55em;
+      font-size: 0.85em;
+      font-family: monospace;
+      letter-spacing: 0.05em;
+    }
+    .credit-note {
+      font-size: 0.8rem;
+      color: #777;
+      text-align: center;
+      margin-top: -1rem;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body class="help">
+
+  <!-- ───────────── TOP NAV ───────────── -->
+  <header class="header">
+    <nav class="nav-top">
+      <a href="../" class="logo">
+        <span class="logo-kanji">日本のアドバイス</span>
+        <span class="logo-sub">DICAS JAPÃO</span>
+      </a>
+
+      <!-- hamburger (mobile) -->
+      <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <!-- desktop links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../hiragana/">Hiragana</a></li>
+        <li><a href="../katakana/">Katakana</a></li>
+        <li><a href="../hira-kata/">ひ+カ</a></li>
+        <li><a href="../suuji/">Suuji</a></li>
+        <li><a href="../kanji-n5/">Kanji N5</a></li>
+        <li><a href="../kanji-n4/">Kanji N4</a></li>
+        <li><a href="../quiz-hiragana/">Quiz ひ</a></li>
+        <li><a href="../quiz-katakana/">Quiz カ</a></li>
+        <li><a href="." class="active">Ajuda</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ───────────── CONTEÚDO ───────────── -->
+  <main class="help-page-section">
+
+    <h1>Ajuda &amp; Referência</h1>
+
+    <p>
+      Este site é um flashcard interativo para estudo dos sistemas de escrita japonesa:
+      <strong>Hiragana</strong>, <strong>Katakana</strong>, <strong>Kanji N5/N4</strong> e <strong>Suuji</strong> (números).
+      Use os controles abaixo para navegar pelos caracteres e praticar a leitura.
+    </p>
+
+    <h2>Controles &amp; Atalhos</h2>
+
+    <table class="shortcut-table">
+      <thead>
+        <tr>
+          <th>Tecla</th>
+          <th>Ação</th>
+          <th>Descrição</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="key-badge">Space</span></td>
+          <td>Falar</td>
+          <td>Revela a leitura e reproduz o áudio do caractere</td>
+        </tr>
+        <tr>
+          <td><span class="key-badge">P</span></td>
+          <td>Play · Pause</td>
+          <td>Inicia ou pausa o avanço automático com timer</td>
+        </tr>
+        <tr>
+          <td><span class="key-badge">→</span> / <span class="key-badge">&gt;</span></td>
+          <td>Próximo</td>
+          <td>Avança para o próximo caractere</td>
+        </tr>
+        <tr>
+          <td><span class="key-badge">←</span> / <span class="key-badge">&lt;</span></td>
+          <td>Anterior</td>
+          <td>Volta para o caractere anterior</td>
+        </tr>
+        <tr>
+          <td><span class="key-badge">F</span></td>
+          <td>Fullscreen</td>
+          <td>Abre o modo tela cheia para estudo focado</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Como usar</h2>
+    <p>
+      Selecione as fileiras de caracteres que deseja praticar usando as caixas de seleção na parte inferior da página.
+      Clique em <strong>Play</strong> (ou pressione <span class="key-badge">Space</span>) para ouvir a pronúncia.
+      Use o <strong>Timer</strong> para avançar automaticamente em intervalos definidos — ideal para revisão rápida.
+    </p>
+    <p>
+      No modo <strong>Fullscreen</strong>, o caractere ocupa toda a tela, ótimo para treinar sem distrações ou para exibir em um monitor maior durante os estudos.
+    </p>
+
+
+    <h2>Tabela de Hiragana</h2>
+    <div class="chart-wrap">
+      <img src="img/hiragana-chart.jpg" alt="Tabela completa de Hiragana" />
+    </div>
+    <p class="credit-note">Tabela por <strong>Tofugu.com</strong> — tofugu.com/japanese/learn-katakana</p>
+  
+    <h2>Tabela de Katakana</h2>
+    <div class="chart-wrap">
+      <img src="img/katakana-chart.jpg" alt="Tabela completa de Katakana com Dakuten, Han-dakuten e combinações" />
+    </div>
+    <p class="credit-note">Tabela por <strong>Tofugu.com</strong> — tofugu.com/japanese/learn-katakana</p>
+
+    
+
+    <h2>Sobre o projeto</h2>
+    <p>
+      Desenvolvido como ferramenta de apoio ao estudo de japonês.
+      Os caracteres seguem as convenções do <em>Nihon-shiki</em> e <em>Hepburn</em> romanizado.
+    </p>
+
+  </main>
+
+  <!-- ───────────── BOTTOM FOOTER ───────────── -->
+  <footer class="footer">
+    <!-- bottom bar -->
+    <div class="footer-bar">
+      <span>© 2026 日本のアドバイス</span>
+      <nav class="footer-bar-links">
+        <span>Copyright &copy; - DICAS JAP&Atilde;O - Todos os direitos reservados</span>
+        <a href="http://www.ovelhaeletrica.com/blog/contato" target="_blank" rel="noopener">Contato</a> Versão 1.1
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Burger menu (same as other pages)
+    const burgerBtn = document.getElementById('burgerBtn');
+    const navLinks  = document.getElementById('navLinks');
+    burgerBtn.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      burgerBtn.setAttribute('aria-expanded', open);
+    });
+  </script>
+
+</body>
+</html>

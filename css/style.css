@@ -1,8 +1,7 @@
 /* ─────────────────────────────────────
    TEMPORARY HIDDEN
 ───────────────────────────────────── */
-.hours-banner,
-.footer-inner { display: none !important; }
+.hours-banner { display: none !important; }
 
 /* ─────────────────────────────────────
    RESET & BASE
@@ -131,7 +130,7 @@ address { font-style: normal; }
   font-family: 'Jost', sans-serif;
   font-size: 0.43rem;
   font-weight: 700;
-  letter-spacing: 0.2em;
+  letter-spacing: 2.5em;
   text-transform: uppercase;
   opacity: 0.6;
 }
@@ -472,15 +471,6 @@ address { font-style: normal; }
 .footer {
   background: #1a1a1a;
   color: rgba(255,255,255,0.8);
-}
-
-.footer-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
-  gap: 2rem;
-  padding: 3.5rem 1.5rem 2.5rem;
 }
 
 /* Brand col */
@@ -1205,11 +1195,6 @@ body.hira-kata .romanji {
     grid-template-columns: 1fr 1fr;
   }
 
-  .footer-inner {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem 2.5rem;
-  }
-
   .hours-divider { display: none; }
 }
 
@@ -1285,11 +1270,6 @@ body.hira-kata .romanji {
 
   .card-img { height: 200px; }
 
-  /* Footer */
-  .footer-inner {
-    grid-template-columns: 1fr;
-  }
-
   .newsletter-form { flex-direction: column; }
   .newsletter-form button { width: 100%; }
 
@@ -1361,7 +1341,7 @@ body:has(.fullscreen-modal.fs-open) {
 
 body.kanji-n5 .fullscreen-modal .char,
 body.kanji-n4 .fullscreen-modal .char {
-  font-size: clamp(32rem, 100vw, 80rem);
+  font-size: clamp(32rem, 100vw, 40rem);
 }
 
 .fullscreen-modal .char-pair {
