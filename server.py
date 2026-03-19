@@ -4,7 +4,7 @@ import socketserver
 import os
 
 PORT = 8181
-DIRECTORY = "/var/www/html/dicasjapao"
+DIRECTORY = "/var/www/html/dicasjapao-v2"
 
 class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):

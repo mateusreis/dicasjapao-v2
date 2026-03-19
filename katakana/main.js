@@ -48,9 +48,10 @@ const captionRomanji = document.getElementById('captionRomanji');
 const captionMeaning = document.getElementById('captionMeaning');
 const timerBarWrap   = document.getElementById('timerBarWrap');
 const timerBar       = document.getElementById('timerBar');
-const btnPlay        = document.getElementById('btnPlay');
-const btnSay         = document.getElementById('btnSay');
+const btnTimer        = document.getElementById('btnTimer');
+const btnPlay         = document.getElementById('btnPlay');
 const btnNext        = document.getElementById('btnNext');
+const btnPrev        = document.getElementById('btnPrev');
 const timerDuration  = document.getElementById('timerDuration');
 const checkboxes     = document.querySelectorAll('.checklist input[type="checkbox"]');
 const timerBarToggle = document.getElementById('timerBarToggle');
@@ -96,7 +97,7 @@ function showChar(entry, pushHistory = true) {
   captionMeaning.style.transition = '';
   isSpeaking = false;
   speakToken++;                           // invalidate any in-flight speak callback
-  btnSay.classList.remove('btn--say-on');
+  btnPlay.classList.remove('btn--say-on');
   speechSynthesis.cancel();
 }
 
@@ -170,7 +171,7 @@ function speak(onDone) {
 
   // Lock & highlight immediately — don't wait for onstart
   isSpeaking = true;
-  btnSay.classList.add('btn--say-on');
+  btnPlay.classList.add('btn--say-on');
 
   const utt = new SpeechSynthesisUtterance(current.c);
   utt.lang = 'ja-JP';
@@ -183,7 +184,7 @@ function speak(onDone) {
     if (token !== speakToken) return;  // cancelled by showChar or a newer speak()
     if (called) return; called = true;
     isSpeaking = false;
-    btnSay.classList.remove('btn--say-on');
+    btnPlay.classList.remove('btn--say-on');
     if (onDone) onDone();
   };
 
@@ -235,25 +236,19 @@ function onTimerEnd() {
 // ─── Play / Stop ──────────────────────────────────────────────────────────────
 function setPlaying(val) {
   isPlaying = val;
-  const icon  = btnPlay.querySelector('i');
-  const label = btnPlay.querySelector('.buttons-label');
   if (val) {
-    icon.className    = 'fa-regular fa-circle-pause';
-    label.textContent = 'Stop';
-    btnPlay.classList.add('buttons--active');
+    btnTimer.classList.add('buttons--active');
     startTimer();
   } else {
-    icon.className    = 'fa-regular fa-circle-play';
-    label.textContent = 'Play';
-    btnPlay.classList.remove('buttons--active');
+    btnTimer.classList.remove('buttons--active');
     stopTimer();
   }
 }
 
-btnPlay.addEventListener('click', () => setPlaying(!isPlaying));
+btnTimer.addEventListener('click', () => setPlaying(!isPlaying));
 
 // ─── Say ──────────────────────────────────────────────────────────────────────
-btnSay.addEventListener('click', () => {
+btnPlay.addEventListener('click', () => {
   if (isSpeaking) return;  // locked while audio is playing
 
   if (isPlaying) {
@@ -275,6 +270,9 @@ btnSay.addEventListener('click', () => {
     speak();
   }
 });
+
+// ─── Prev ─────────────────────────────────────────────────────────────────────
+btnPrev.addEventListener('click', showPrev);
 
 // ─── Next ─────────────────────────────────────────────────────────────────────
 btnNext.addEventListener('click', () => {
@@ -385,7 +383,7 @@ document.addEventListener('keydown', e => {
   switch (e.key) {
     case ' ':
       e.preventDefault();
-      btnSay.click();
+      btnPlay.click();
       break;
     case 'p':
     case 'P':
