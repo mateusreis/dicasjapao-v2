@@ -1,0 +1,7 @@
+1 a cor do texto do link ativo em nav-links é a mesma de --accent, nao mude a cor de fundo
+
+2 substitua o conteudo de footer-bar-links por "Copyright (C) - Ovelha Elétrica - Todos os direitos reservados"
+e adicione um link Contato, que aponta para a página de contato: http://www.ovelhaeletrica.com/blog/contato
+
+3 adicione outra opcao no footer, como vc fez em VOICE SETTINGS, mas agora adicione uma nova linha com  opcao SHOW TIMER? e o dropdown, com a opcao SHOW e HIDE, que controlam a funcionalidade de esconder ou nao a barrinha de progresso do timer
+

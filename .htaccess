@@ -1,0 +1,8 @@
+Options -Indexes
+RewriteEngine On
+
+# Clean URLs: /hiragana → /hiragana/index.html
+RewriteRule ^hiragana$ /hiragana/index.html [L]
+RewriteRule ^katakana$ /katakana/index.html [L]
+RewriteRule ^kanji$ /kanji/index.html [L]
+RewriteRule ^suuji$ /suuji/index.html [L]

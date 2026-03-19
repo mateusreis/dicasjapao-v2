@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>電気羊 – Ovelha Elétrica</title>
+  <link rel="stylesheet" href="css/style.css?v=7" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Noto+Sans+JP:wght@900&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ───────────── TOP NAV ───────────── -->
+  <header class="header">
+    <nav class="nav-top">
+      <a href="." class="logo">
+        <span class="logo-kanji">電気羊</span>
+        <span class="logo-sub">Ovelha Elétrica</span>
+      </a>
+
+      <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="hiragana/">Hiragana</a></li>
+        <li><a href="katakana/">Katakana</a></li>
+        <li><a href="hira-kata/">ひ+カ</a></li>
+        <li><a href="suuji/">Suuji</a></li>
+        <li><a href="kanji-n5/">Kanji N5</a></li>
+        <li><a href="kanji-n4/">Kanji N4</a></li>
+        <li><a href="quiz-hiragana/">Quiz ひ</a></li>
+        <li><a href="quiz-katakana/">Quiz カ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ───────────── HERO ───────────── -->
+  <section class="index-hero">
+
+    <p>Flashcard apps to help you master Japanese writing systems — one character at a time.</p>
+  </section>
+
+  <!-- ───────────── APP CARDS ───────────── -->
+  <section class="app-section">
+    <div class="app-grid">
+
+      <!-- Hiragana -->
+      <a class="app-card" href="hiragana/">
+        <div class="app-card-banner">
+          <span class="big-char">あ</span>
+          <span class="small-char">い う え お</span>
+        </div>
+        <div class="app-card-body">
+          <h2>Hiragana</h2>
+          <p>The 46 basic phonetic characters used for native Japanese words and grammar. The essential first step.</p>
+          <span class="app-card-cta">
+            START <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+      </a>
+
+      <!-- Katakana -->
+      <a class="app-card" href="katakana/">
+        <div class="app-card-banner">
+          <span class="big-char">ア</span>
+          <span class="small-char">イ ウ エ オ</span>
+        </div>
+        <div class="app-card-body">
+          <h2>Katakana</h2>
+          <p>The 46 angular counterparts used for foreign loan words, names and emphasis. Same sounds, different shapes.</p>
+          <span class="app-card-cta">
+            START <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+      </a>
+
+      <!-- Hiragana + Katakana -->
+      <a class="app-card" href="hira-kata/">
+        <div class="app-card-banner">
+          <span class="big-char">あ ア</span>
+          <span class="small-char">い イ う ウ</span>
+        </div>
+        <div class="app-card-body">
+          <h2>Hiragana + Katakana</h2>
+          <p>See both scripts side by side — every card shows the hiragana and katakana for the same sound at once.</p>
+          <span class="app-card-cta">
+            START <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+      </a>
+
+      <!-- Kanji N5 -->
+      <a class="app-card app-card--kanji-n5" href="kanji-n5/">
+        <div class="app-card-banner">
+          <span class="big-char">漢</span>
+          <span class="small-char">字 N5</span>
+        </div>
+        <div class="app-card-body">
+          <h2>Kanji N5</h2>
+          <p>86 essential kanji for JLPT N5, grouped by theme: numbers, time, nature, people, actions and more.</p>
+          <span class="app-card-cta">
+            START <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+      </a>
+
+      <!-- Suuji -->
+      <a class="app-card app-card--suuji" href="suuji/">
+        <div class="app-card-banner">
+          <span class="big-char">123</span>
+          <span class="small-char">456</span>
+        </div>
+        <div class="app-card-body">
+          <h2>Suuji</h2>
+          <p>Practice reading Japanese numbers — from 0 to millions. Set your range and optional trailing zeros.</p>
+          <span class="app-card-cta">
+            START <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+      </a>
+
+      <!-- Kanji N4 -->
+      <a class="app-card app-card--kanji-n4" href="kanji-n4/">
+        <div class="app-card-banner">
+          <span class="big-char">漢</span>
+          <span class="small-char">字 N4</span>
+        </div>
+        <div class="app-card-body">
+          <h2>Kanji N4</h2>
+          <p>139 kanji for JLPT N4, grouped by theme: body, family, nature, places, actions and more. Includes 音 &amp; 訓 readings.</p>
+          <span class="app-card-cta">
+            START <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+      </a>
+
+      <!-- Quiz Hiragana -->
+      <a class="app-card app-card--quiz" href="quiz-hiragana/">
+        <div class="app-card-banner">
+          <span class="big-char">いぬ</span>
+          <span class="small-char">ねこ うみ</span>
+        </div>
+        <div class="app-card-body">
+          <h2>Quiz Hiragana</h2>
+          <p>300 common Japanese words in hiragana, organised by theme: body, animals, food, nature, verbs and more.</p>
+          <span class="app-card-cta">
+            START <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+      </a>
+
+      <!-- Quiz Katakana -->
+      <a class="app-card app-card--quiz" href="quiz-katakana/">
+        <div class="app-card-banner">
+          <span class="big-char">イヌ</span>
+          <span class="small-char">ネコ ウミ</span>
+        </div>
+        <div class="app-card-body">
+          <h2>Quiz Katakana</h2>
+          <p>300 common Japanese words in katakana, organised by theme: body, animals, food, nature, verbs and more.</p>
+          <span class="app-card-cta">
+            START <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ───────────── OPENING HOURS BANNER ───────────── -->
+  <section class="hours-banner">
+    <div class="hours-inner">
+      <div class="hours-item">
+        <span class="hours-day">Monday</span>
+        <span class="hours-time">12:00 – 17:00</span>
+      </div>
+      <div class="hours-divider"></div>
+      <div class="hours-item">
+        <span class="hours-day">Tuesday – Sunday</span>
+        <span class="hours-time">10:00 – 17:00</span>
+      </div>
+      <div class="hours-divider"></div>
+      <div class="hours-item">
+        <span class="hours-day">1st Friday of the month</span>
+        <span class="hours-time">10:00 – 21:00</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────── FOOTER ───────────── -->
+  <footer class="footer">
+    <div class="footer-inner">
+
+      <div class="footer-col footer-brand">
+        <span class="footer-logo">
+          <span class="logo-kanji">電気羊</span>
+          <span class="logo-sub">Ovelha Elétrica</span>
+        </span>
+        <address>
+          NDSM-Plein 1<br>
+          1033 WC Amsterdam<br>
+          <a href="https://maps.app.goo.gl/3FPe6Tr8cAMgxpTw9" target="_blank" rel="noopener">Google Maps ↗</a>
+        </address>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">More</h4>
+        <ul class="footer-links">
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Agency</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Follow us</h4>
+        <ul class="footer-links">
+          <li><a href="https://www.facebook.com/straat.museum.ndsm" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/straatmuseum/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.youtube.com/@straatmuseum" target="_blank" rel="noopener">YouTube</a></li>
+          <li><a href="https://www.tiktok.com/@straatmuseum" target="_blank" rel="noopener">TikTok</a></li>
+          <li><a href="https://nl.pinterest.com/straatmuseum/" target="_blank" rel="noopener">Pinterest</a></li>
+          <li><a href="https://www.linkedin.com/company/straat-museum" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-newsletter">
+        <h4 class="footer-heading">Newsletter</h4>
+        <p>Stay up to date with exhibitions, events and more.</p>
+        <form class="newsletter-form" onsubmit="return false;">
+          <input type="email" placeholder="your@email.com" aria-label="Email address" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bar">
+      <span>© 2026 電気羊</span>
+      <nav class="footer-bar-links">
+        <span>Copyright &copy; &mdash; Ovelha El&eacute;trica &mdash; Todos os direitos reservados</span>
+        <a href="http://www.ovelhaeletrica.com/blog/contato" target="_blank" rel="noopener">Contato</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav
+    const burger   = document.getElementById('burgerBtn');
+    const navLinks = document.getElementById('navLinks');
+
+    burger.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      burger.classList.toggle('open', isOpen);
+      burger.setAttribute('aria-expanded', isOpen);
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        burger.classList.remove('open');
+        burger.setAttribute('aria-expanded', false);
+      });
+    });
+
+    // Header shadow on scroll
+    const header = document.querySelector('.header');
+    window.addEventListener('scroll', () => {
+      header.style.boxShadow = window.scrollY > 10 ? '0 2px 16px rgba(0,0,0,0.4)' : 'none';
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1508 @@
+nohup: ignoring input
+127.0.0.1 - - [26/Feb/2026 10:59:27] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 10:59:27] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 10:59:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 10:59:28] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 10:59:33] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:00:49] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:00:49] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:00:49] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:00:50] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:00:50] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:02:05] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:02:05] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:02:31] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:02:31] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:02:40] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:03:53] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:03:53] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:04:12] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:04:44] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:04:44] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:04:44] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:04:45] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:04:45] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:04:45] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:04:46] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:04:46] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:05:12] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:05:12] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:05:12] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:05:48] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:05:48] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:06:54] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:06:54] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:06:54] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:07:26] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:07:26] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:07:26] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:07:28] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:07:29] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:07:29] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:07:29] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:07:29] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:07:29] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:07:36] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:08:01] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:08:01] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:08:01] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:08:19] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:08:28] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:08:28] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:08:37] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:09:10] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:09:10] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:09:10] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:10:05] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:10:05] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:11:24] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:11:24] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:11:24] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:11:25] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:11:28] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:11:28] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:11:38] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:11:50] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:13:37] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:13:37] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:13:37] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:13:37] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:13:37] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:13:45] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:13:45] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:14:07] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:07] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:07] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:08] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:14:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:14:17] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:17] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:17] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:18] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:14:18] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:14:22] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:22] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:22] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:23] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:14:23] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:14:34] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:34] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:34] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:34] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:14:34] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:14:34] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:34] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:34] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:35] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:14:35] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:14:37] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:14:37] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:15:44] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:15:44] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:15:44] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:15:48] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:15:48] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:15:48] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:15:48] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:15:48] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:16:00] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:16:00] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:16:02] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:16:02] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:16:02] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:16:02] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:16:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:17:40] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:17:40] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:17:40] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:17:41] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:17:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:17:44] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:17:44] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:17:44] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:17:45] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:17:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:17:45] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:17:45] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:17:45] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:17:45] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:17:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:17:45] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:17:45] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:17:45] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:17:46] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:17:46] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:19:48] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:19:48] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:19:48] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:19:52] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:19:52] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:19:52] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:19:52] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:19:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:19:57] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:19:57] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:19:57] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:19:58] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:19:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:20:02] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:20:02] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:20:02] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:20:02] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:20:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:20:04] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:20:04] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:20:39] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:20:39] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:40] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:43] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:43] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:44] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:45] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:20:45] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:20:45] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:20:45] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:20:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:20:47] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:47] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:47] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:47] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:47] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:47] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:47] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:47] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:48] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:48] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:20:54] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:20:54] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:20:54] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:20:54] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:20:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:21:00] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:21:00] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:21:00] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:21:00] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:21:00] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:22:17] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:22:17] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:22:22] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:22:22] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:22:27] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:22:27] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:26:22] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:26:34] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:26:34] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:26:34] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:26:34] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:26:34] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:26:34] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:26:34] "GET /fonts/DotGothic16-400.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:26:36] "GET /fonts/AnzuMoji2020.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:27:27] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:27] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:27:27] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:27] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:27] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:27] "GET /fonts/APJapanesefont.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:27:28] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:28] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:29] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:29] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:29] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:29] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:29] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:30] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:30] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:30] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:30] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:30] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:31] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:31] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:31] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:31] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:31] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:31] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:32] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:32] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:32] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:35] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:36] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:36] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:36] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:37] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:37] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:37] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:38] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:39] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:39] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:39] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:40] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:27:40] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:28:51] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:28:51] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:28:51] "GET /kanji-n5/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:35:16] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:16] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:16] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:17] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:35:17] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:35:22] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:22] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:22] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:22] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:35:22] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:35:23] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:23] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:23] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:23] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:35:23] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:35:26] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:26] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:35:26] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:26] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:35:26] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:35:28] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:28] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:28] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:28] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:28] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:28] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:28] "GET /fonts/APJapanesefont.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:28] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:35:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:35:29] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:29] "GET /suuji/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:30] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:30] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:30] "GET /suuji/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:35:30] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:35:33] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:33] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:33] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:33] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:35:33] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:35:34] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:34] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:35] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:35] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:35] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:36] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:35:36] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:35:38] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:35:38] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:39] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:39] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:39] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:39] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:39] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:39] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:39] "GET /fonts/APJapanesefont.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:39] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:35:39] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:35:49] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:50] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:50] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:35:50] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:35:50] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:36:17] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:17] "GET /fonts/NotoSerifJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:18] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:18] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:18] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:20] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:21] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:21] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:22] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:22] "GET /kanji-n5/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:23] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:23] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:25] "GET /kanji-n5/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:28] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:29] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:29] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:29] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:29] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:29] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:29] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:29] "GET /fonts/NotoSerifJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:29] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:36:29] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:36:31] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:32] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:32] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:32] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:32] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:32] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:32] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:32] "GET /fonts/NotoSerifJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:32] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:36:32] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:36:33] "GET /kanji-n4/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:35] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:35] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:35] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:35] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:36:35] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:36:36] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:36] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /fonts/NotoSerifJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:42] "GET /fonts/NotoSerifJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /fonts/NotoSerifJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /fonts/NotoSerifJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:43] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:44] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:44] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:44] "GET /fonts/NotoSerifJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:44] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:36:44] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:36:44] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:44] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:44] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:44] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:44] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:44] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:44] "GET /fonts/NotoSerifJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:36:45] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:36:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:37:05] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:37:05] "GET /kanji-n5/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:09] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:38:10] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:38:10] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:38:10] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:38:10] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:38:16] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:16] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:16] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:16] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:16] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:16] "GET /fonts/NotoSerifJp-900.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:18] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:47] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:47] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:47] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:53] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:53] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:55] "GET /kanji-n5/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:55] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:55] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:38:57] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:58] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:38:59] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:39:03] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:39:04] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:39:04] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:39:10] "GET /kanji-n5/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:39:12] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:39:16] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:39:16] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:39:24] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:39:24] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:39:24] "GET /kanji-n4/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:41:35] "HEAD /fonts/NotoSerifJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:16] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:16] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:16] "GET /kanji-n4/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:16] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:16] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:16] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:17] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:17] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:17] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:17] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:17] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:18] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:18] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:19] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:19] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:19] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:19] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:19] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:19] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:19] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:19] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:20] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:20] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:20] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:23] "GET /fonts/DotGothic16-400.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:24] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:24] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:24] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:24] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:25] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:25] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:26] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:26] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:26] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:30] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:30] "GET /fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:30] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:30] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:43:55] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:55] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:55] "HEAD /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:55] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:55] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:55] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:55] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:55] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:55] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:55] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:56] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:57] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:43:58] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:43:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:44:00] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:27] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:27] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:27] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:27] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:27] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:27] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:27] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:27] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:44:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:44:28] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:28] "GET /kanji-n5/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:44:34] "GET /fonts/APJapanesefont.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:45] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:44:45] "GET /fonts/fonts.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:44:46] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:46] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:44:46] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:44:52] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:52] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:52] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:52] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:52] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:52] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:52] "GET /fonts/APJapanesefont.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:52] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:44:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:44:53] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:54] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:55] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:44:55] "GET /kanji-n4/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:44:58] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:01] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:01] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:01] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:01] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:01] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:01] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:01] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:01] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:45:01] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:45:03] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:45:24] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:24] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:24] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:24] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:24] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:24] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:24] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:45:24] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:45:24] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:47:52] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:47:52] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:47:52] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:47:52] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:47:52] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:47:52] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:47:52] "GET /fonts/NotoSerifJP-v2.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:47:52] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:47:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:49:55] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:49:55] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:49:55] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:49:55] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:49:56] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:49:56] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:49:56] "GET /fonts/NotoSerifJP-Regular.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:49:56] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:49:56] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:50:02] "GET /fonts/APJapanesefont.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:50:06] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:50:06] "GET /fonts/fonts.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:51:44] "GET /hiragana/?id=7e4be5b6-1ef5-4c2f-9bb5-accd1d829558&vscodeBrowserReqId=1772117504897 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:51:44] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:51:44] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:51:44] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:51:45] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:51:45] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:51:51] "GET /fonts/NotoSerifJP-Regular.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:51:56] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:51:56] "GET /fonts/fonts.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:51:56] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:51:58] "GET /hiragana/?id=7e4be5b6-1ef5-4c2f-9bb5-accd1d829558&vscodeBrowserReqId=1772117518541 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:51:58] "GET /fonts/fonts.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:52:08] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:52:08] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:52:08] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:52:08] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:52:08] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:52:08] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:52:08] "GET /fonts/APJapanesefont.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:52:08] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 11:52:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 11:52:11] "GET /fonts/NotoSerifJP-Regular.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 11:52:13] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:52:13] "GET /fonts/fonts.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:52:13] "GET /kanji-n4/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:52:15] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:52:15] "GET /fonts/fonts.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:52:16] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:52:17] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:52:17] "GET /fonts/fonts.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:52:17] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 11:52:22] "GET /fonts/MPlusRounded1c-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:03] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:03] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:03] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:03] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:03] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:03] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:10] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:10] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:10] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:10] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:10] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:10] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:10] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:39:10] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:39:45] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:45] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:45] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:45] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:45] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:47] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:47] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:47] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:47] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:47] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:47] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:47] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:39:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:39:49] "GET /fonts/NotoSerifJP-Regular.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:51] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:51] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:51] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:51] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:51] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:51] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:51] "GET /fonts/NotoSerifJP-Regular.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:39:51] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:39:51] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:39:57] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:57] "GET /fonts/fonts.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:57] "GET /kanji-n5/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:58] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:58] "GET /kanji-n4/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:59] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:59] "GET /fonts/fonts.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:39:59] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:40:02] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:40:02] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:40:02] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:40:02] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:40:02] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:40:02] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:40:02] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:40:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:41:39] "GET /hiragana/?id=613c43ad-3cb7-4099-840d-fbfb17a7ee49&vscodeBrowserReqId=1772120499535 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:39] "GET /fonts/fonts.css?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:39] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:41:39] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:41:39] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:41:39] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:41:45] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:45] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:45] "GET /fonts/fonts.css?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:45] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:45] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:45] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:45] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:41:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:41:48] "GET /fonts/DotGothic16-400.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:52] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:52] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:52] "GET /fonts/fonts.css?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:52] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:52] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:52] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:52] "GET /fonts/DotGothic16-400.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:52] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:41:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:41:58] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:58] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:58] "GET /fonts/fonts.css?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:58] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:59] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:59] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:59] "GET /fonts/DotGothic16-400.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:41:59] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:41:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:42:02] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:42:12] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:42:12] "GET /fonts/fonts.css?v=3 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:42:12] "GET /fonts/NotoSerifJP-Regular.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:42:17] "GET /fonts/fonts.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:42:28] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:42:28] "GET /fonts/fonts.css?v=3 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:42:28] "GET /fonts/APJapanesefont.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:43:37] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:37] "GET /fonts/fonts.css?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:43:37] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:37] "GET /fonts/fonts.css?v=3 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:38] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:38] "GET /fonts/fonts.css?v=3 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:38] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:38] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:43] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:43] "GET /fonts/fonts.css?v=3 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:43] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:44] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:44] "GET /fonts/fonts.css?v=3 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:44] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:43:46] "GET /fonts/fonts.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:43:53] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:43:53] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:43:53] "GET /fonts/fonts.css?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:43:53] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:43:53] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:43:53] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:43:53] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:43:53] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:45:06] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:45:06] "GET /fonts/fonts.css?v=3 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:45:06] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:45:06] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:45:07] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:45:07] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:45:07] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:45:13] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:45:15] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:45:15] "GET /fonts/fonts.css?v=3 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:46:23] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:23] "GET /fonts/fonts.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:24] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:46:24] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:46:24] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:46:27] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:46:27] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:46:27] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:46:27] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:46:28] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:46:28] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:46:29] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:29] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:29] "GET /fonts/fonts.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:29] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:29] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:29] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:29] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:29] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:29] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:29] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /fonts/fonts.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /fonts/fonts.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /fonts/fonts.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /fonts/fonts.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:30] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /fonts/fonts.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /fonts/fonts.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /fonts/fonts.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:31] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:31] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:32] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:32] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:32] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:32] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:32] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:32] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:32] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:32] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:33] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:33] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:33] "GET /fonts/fonts.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:33] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:46:33] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:33] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:33] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:33] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:46:34] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:46:34] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:49:54] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:49:54] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:49:54] "GET /fonts/fonts.css?v=5 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:49:54] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:49:54] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:49:54] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:49:54] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:49:54] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:49:54] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:49:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:49:58] "GET /fonts/NotoSerifJP-Regular.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:50:04] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:50:04] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:50:04] "GET /fonts/fonts.css?v=5 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:50:04] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:50:04] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:50:04] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:50:04] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:50:04] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:50:04] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:50:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:50:06] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:50:06] "GET /fonts/fonts.css?v=5 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:50:06] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:50:06] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:50:06] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:50:06] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:50:06] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:50:06] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:50:06] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:50:06] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:50:06] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:50:06] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:50:06] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:50:07] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:50:07] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:50:07] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:50:07] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:50:07] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:50:07] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:00] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:00] "GET /fonts/fonts.css?v=6 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:00] "GET /kanji-n4/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:00] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:00] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:00] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:00] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:01] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:01] "GET /fonts/fonts.css?v=6 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:01] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:01] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:01] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:01] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:01] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:01] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:01] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:01] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:01] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:01] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:01] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:01] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:01] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:01] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:03] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:03] "GET /fonts/fonts.css?v=6 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:03] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:03] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:03] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:03] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:03] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:03] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:03] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:03] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:03] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:04] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:04] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:04] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:04] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:04] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:05] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:05] "GET /fonts/fonts.css?v=6 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:05] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:05] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:05] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:05] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:08] "GET /kanji-n4/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:08] "GET /fonts/fonts.css?v=6 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:08] "GET /kanji-n4/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:08] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:08] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:08] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:08] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:10] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /fonts/fonts.css?v=6 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /fonts/fonts.css?v=6 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /fonts/fonts.css?v=6 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /fonts/fonts.css?v=6 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:11] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /fonts/fonts.css?v=6 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /fonts/fonts.css?v=6 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:12] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:13] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:13] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:13] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:13] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:13] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:13] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:20] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:20] "GET /fonts/fonts.css?v=6 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:51:20] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:20] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:20] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:20] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:21] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:21] "GET /fonts/fonts.css?v=6 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:21] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:21] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:21] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:21] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:21] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:25] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:25] "GET /fonts/fonts.css?v=6 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:51:25] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:25] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:51:25] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:51:25] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:52:39] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:52:39] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:52:39] "GET /fonts/fonts.css?v=6 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:52:39] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:52:39] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:52:39] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:52:39] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:52:39] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:52:39] "GET /fonts/APJapanesefont.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:52:39] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:52:39] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:52:41] "GET /fonts/NotoSerifJP-Regular.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:52:53] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:52:53] "GET /fonts/fonts.css?v=6 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:52:53] "GET /hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:52:53] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:52:53] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:52:53] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:52:53] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:53:06] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:06] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:06] "GET /fonts/fonts.css?v=6 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:06] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:06] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:53:06] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:53:06] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:53:06] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:53:06] "GET /fonts/APJapanesefont.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:06] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:53:06] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:53:14] "GET /fonts/fonts.css?v=6 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:53:14] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:53:14] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:53:49] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:49] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:53:49] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:53:49] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:49] "GET /fonts/fonts.css?v=7 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:49] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:49] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:53:49] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:53:49] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:53:49] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:53:56] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:56] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:53:56] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:53:56] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:56] "GET /fonts/fonts.css?v=7 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:56] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:53:56] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:53:56] "GET /fonts/NotoSansJp-900.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:53:56] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:53:56] "GET /fonts/Jost-VariableFont.woff2 HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:53:59] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:53:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:55:57] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:55:57] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:55:57] "GET /fonts/fonts.css?v=8 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:55:57] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:55:57] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:55:57] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:55:57] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:55:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:56:07] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:56:07] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:56:07] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:56:07] "GET /fonts/fonts.css?v=8 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:56:07] "GET /kanji-n5/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:57:08] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:57:08] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:57:08] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:57:08] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:57:08] "GET /fonts/fonts.css?v=8 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:57:08] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:57:09] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:57:09] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:57:18] "GET /fonts/NotoSerifJP-VariableFont_wght.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:57:57] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:57:57] "GET /fonts/fonts.css?v=8 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:57:57] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:57:57] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:57:57] "GET /kanji-n5/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:57:57] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:57:57] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:57:57] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:57:58] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:57:58] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:57:58] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:57:58] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:57:58] "GET /fonts/fonts.css?v=8 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:57:58] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:57:59] "GET /fonts/NotoSerifJP-VariableFont_wght.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:57:59] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:57:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:01] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:01] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:01] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:01] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:01] "GET /fonts/fonts.css?v=8 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:01] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:02] "GET /fonts/NotoSerifJP-VariableFont_wght.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:02] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:03] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:03] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:03] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:03] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:58:03] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:58:04] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:05] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:05] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:05] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:05] "GET /fonts/fonts.css?v=8 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:05] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:05] "GET /fonts/NotoSerifJP-VariableFont_wght.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:05] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:05] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:12] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:58:12] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:12] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:12] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:14] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:14] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:14] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:14] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:14] "GET /fonts/fonts.css?v=8 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:14] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:14] "GET /fonts/NotoSerifJP-VariableFont_wght.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:15] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:15] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:16] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:16] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:16] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:16] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:16] "GET /fonts/fonts.css?v=8 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:16] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:17] "GET /fonts/NotoSerifJP-VariableFont_wght.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:17] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:17] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:40] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:58:40] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:40] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:40] "GET /css/style.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 12:58:40] "GET /fonts/fonts.css?v=8 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:41] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:41] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:41] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:41] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:41] "GET /fonts/fonts.css?v=8 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:41] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:41] "GET /fonts/NotoSerifJP-VariableFont_wght.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:41] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:44] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:44] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:44] "GET /fonts/fonts.css?v=8 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:44] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:44] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:44] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 12:58:44] "GET /fonts/NotoSerifJP-VariableFont_wght.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 12:58:44] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 12:58:44] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 13:07:13] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 13:07:13] "GET /css/style.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 13:07:13] "GET /fonts/fonts.css?v=10 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 13:07:13] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 13:07:13] "GET /fonts/NotoSerifJP-VariableFont_wght.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 13:07:13] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 13:07:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 13:09:48] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 13:09:48] "GET /fonts/fonts.css?v=10 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 13:09:48] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:15:30] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:15:30] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:15:30] "GET /fonts/fonts.css?v=10 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:15:30] "GET /katakana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:15:31] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:15:31] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:15:33] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:15:33] "GET /suuji/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:15:33] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:15:33] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:15:34] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:15:34] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:15:50] "GET /fonts/AnzuMoji2020.otf HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:16:15] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:16:15] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:16:15] "GET /fonts/fonts.css?v=10 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:16:15] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:16:15] "GET /fonts/AnzuMoji2020.otf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:16:15] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:16:15] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:18:36] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:18:36] "GET /fonts/fonts.css?v=11 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:18:41] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:18:41] "GET /fonts/fonts.css?v=11 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:19:37] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:37] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:37] "GET /suuji/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:37] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:19:37] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:19:38] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:38] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:38] "GET /suuji/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:38] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:19:38] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /suuji/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /suuji/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /suuji/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /suuji/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /suuji/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:39] "GET /suuji/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:19:40] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:19:40] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:19:50] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:19:50] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:25] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:20:25] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:25] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:26] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:20:26] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:20:26] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:26] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:26] "GET /suuji/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:20:26] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:26] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:27] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:20:27] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:27] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:27] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:20:27] "GET /suuji/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:20:27] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:28] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:28] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:28] "GET /css/style.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:20:29] "GET /hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:20:29] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:29] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:29] "GET /css/style.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:20:29] "GET /fonts/fonts.css?v=11 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:20:30] "GET /suuji/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:20:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:30] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:30] "GET /css/style.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:20:30] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:30] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:31] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:31] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:31] "GET /css/style.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:20:32] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:32] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:33] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:33] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:33] "GET /css/style.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:20:34] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:34] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:34] "GET /fonts/fonts.css?v=11 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:20:34] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:34] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:34] "GET /css/style.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:20:35] "GET /suuji/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:20:35] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:35] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:35] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:35] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:35] "GET /css/style.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:20:36] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:36] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:20:40] "GET /css/style.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:20:40] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:20:40] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:30:11] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:30:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:30:11] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:30:11] "GET /css/style.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:30:11] "GET /fonts/fonts.css?v=11 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:30:14] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:30:15] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:30:15] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:30:17] "GET /katakana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:30:17] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:30:17] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:30:19] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:30:19] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:30:19] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:30:19] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:30:19] "GET /fonts/fonts.css?v=11 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:30:19] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:30:20] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:30:20] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:31:06] "GET /suuji/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 19:31:06] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:31:06] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:31:07] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:31:07] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:31:10] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:31:10] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:31:10] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 19:31:10] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:31:10] "GET /fonts/fonts.css?v=11 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:31:10] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 19:31:10] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 19:31:10] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:01:52] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:01:52] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:01:52] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:01:52] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:01:52] "GET /fonts/fonts.css?v=11 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:01:52] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:01:52] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:01:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:18:51] "GET /quiz HTTP/1.1" 301 -
+127.0.0.1 - - [26/Feb/2026 20:18:51] "GET /quiz/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:18:53] "GET /quiz/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:18:54] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:18:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:55:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:55:08] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:55:08] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:55:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:55:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:55:11] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:55:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:55:11] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:55:18] "GET /quiz-hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:55:18] "GET /quiz-hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:55:18] "GET /css/style.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 20:55:18] "GET /fonts/fonts.css?v=11 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 20:58:57] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:58:57] "GET /css/style.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 20:58:57] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:00] "GET /kanji-n5/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 20:59:01] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 20:59:04] "GET /kanji-n5/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:04] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:04] "GET /fonts/fonts.css?v=11 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:04] "GET /kanji-n5/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:04] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:59:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:59:09] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:09] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:11] "GET /hiragana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:11] "GET /css/style.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:11] "GET /fonts/fonts.css?v=11 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:11] "GET /hiragana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:11] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:59:11] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:59:12] "GET /katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:12] "GET /katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:13] "GET /suuji/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:17] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:59:17] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:59:25] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:59:25] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:59:26] "GET /kanji-n4/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:26] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:59:26] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:59:26] "GET /kanji-n4/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:26] "GET /quiz-hiragana/ HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 20:59:26] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:59:26] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:59:26] "GET /quiz-hiragana/main.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 20:59:27] "GET /quiz-katakana/ HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:27] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:59:27] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:59:27] "GET /quiz-katakana/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2026 20:59:29] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:59:29] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:59:33] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:59:33] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:59:33] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:59:33] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:59:34] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:59:34] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [26/Feb/2026 20:59:46] "GET /css/style.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [26/Feb/2026 20:59:46] code 404, message File not found
+127.0.0.1 - - [26/Feb/2026 20:59:46] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -

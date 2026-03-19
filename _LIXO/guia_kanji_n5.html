@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Kanji JLPT N5</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #e74c3c;
+            --accent: #16a085;
+            --bg: #f4f7f6;
+            --text: #333;
+        }
+
+        body { 
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            color: var(--text); 
+            max-width: 1000px; 
+            margin: auto; 
+            padding: 40px 20px; 
+            background-color: var(--bg); 
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            border-bottom: 4px solid var(--secondary);
+            padding-bottom: 20px;
+        }
+
+        h1 { color: var(--primary); margin-bottom: 5px; }
+        .subtitle { color: #7f8c8d; font-size: 1.1em; }
+
+        h2 { 
+            color: #fff; 
+            background: var(--primary); 
+            padding: 15px; 
+            border-radius: 8px 8px 0 0; 
+            margin-top: 40px; 
+            margin-bottom: 0;
+            font-size: 1.3em;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: "🔖";
+            margin-right: 10px;
+        }
+
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            background: #fff; 
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-radius: 0 0 8px 8px;
+            overflow: hidden;
+        }
+
+        th, td { padding: 15px; border: 1px solid #eee; text-align: left; }
+        th { background-color: #fcfcfc; color: var(--primary); font-size: 0.85em; text-transform: uppercase; letter-spacing: 1px; }
+
+        .kanji { 
+            font-size: 2.2em; 
+            font-weight: bold; 
+            color: var(--secondary); 
+            text-align: center; 
+            width: 100px;
+            background: #fff5f4;
+        }
+
+        .leitura { color: var(--accent); font-weight: 600; font-family: 'MS Mincho', serif; }
+        .significado { font-weight: bold; color: var(--primary); }
+        .exemplo { color: #555; font-size: 0.95em; background: #fefefe; }
+
+        tr:hover { background-color: #fffdec; }
+
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #95a5a6;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .kanji { font-size: 1.8em; width: 60px; }
+            th, td { padding: 10px; font-size: 0.85em; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Manual de Estudos Kanji N5</h1>
+        <div class="subtitle">Guia Prático para o Japanese Language Proficiency Test</div>
+    </header>
+
+    <h2>1. Números e Contagem (数字)</h2>
+    <table>
+        <tr>
+            <th>Kanji</th>
+            <th>Leitura (On/Kun)</th>
+            <th>Significado</th>
+            <th>Exemplo Prático</th>
+        </tr>
+        <tr><td class="kanji">一</td><td class="leitura">Ichi / Hito-tsu</td><td class="significado">Um</td><td class="exemplo">一人 (Hitori) - Uma pessoa</td></tr>
+        <tr><td class="kanji">二</td><td class="leitura">Ni / Futatsu</td><td class="significado">Dois</td><td class="exemplo">二月 (Nigatsu) - Fevereiro</td></tr>
+        <tr><td class="kanji">三</td><td class="leitura">San / Mit-tsu</td><td class="significado">Três</td><td class="exemplo">三日 (Mikka) - Dia 3 / Três dias</td></tr>
+        <tr><td class="kanji">五</td><td class="leitura">Go / Itsu-tsu</td><td class="significado">Cinco</td><td class="exemplo">五分 (Gofun) - 5 minutos</td></tr>
+        <tr><td class="kanji">十</td><td class="leitura">Juu / To</td><td class="significado">Dez</td><td class="exemplo">十分 (Juubun) - Suficiente</td></tr>
+    </table>
+
+    <h2>2. Natureza e Tempo (自然と時)</h2>
+    <table>
+        <tr>
+            <th>Kanji</th>
+            <th>Leitura</th>
+            <th>Significado</th>
+            <th>Exemplo Prático</th>
+        </tr>
+        <tr><td class="kanji">日</td><td class="leitura">Nichi / Hi</td><td class="significado">Dia / Sol</td><td class="exemplo">毎日 (Mainichi) - Todos os dias</td></tr>
+        <tr><td class="kanji">月</td><td class="leitura">Getsu / Tsuki</td><td class="significado">Mês / Lua</td><td class="exemplo">今月 (Kongetsu) - Este mês</td></tr>
+        <tr><td class="kanji">水</td><td class="leitura">Sui / Mizu</td><td class="significado">Água</td><td class="exemplo">水曜日 (Suiyoubi) - Quarta-feira</td></tr>
+        <tr><td class="kanji">金</td><td class="leitura">Kin / Kane</td><td class="significado">Ouro / Dinheiro</td><td class="exemplo">お金 (Okane) - Dinheiro</td></tr>
+        <tr><td class="kanji">年</td><td class="leitura">Nen / Toshi</td><td class="significado">Ano</td><td class="exemplo">来年 (Rainen) - Ano que vem</td></tr>
+    </table>
+
+    <h2>3. Verbos e Ações (動詞)</h2>
+    <table>
+        <tr>
+            <th>Kanji</th>
+            <th>Leitura</th>
+            <th>Significado</th>
+            <th>Exemplo Prático</th>
+        </tr>
+        <tr><td class="kanji">行</td><td class="leitura">Kou / I-ku</td><td class="significado">Ir</td><td class="exemplo">旅行 (Ryokou) - Viagem</td></tr>
+        <tr><td class="kanji">来</td><td class="leitura">Rai / Ku-ru</td><td class="significado">Vir</td><td class="exemplo">来週 (Raishuu) - Semana que vem</td></tr>
+        <tr><td class="kanji">食</td><td class="leitura">Shoku / Ta-beru</td><td class="significado">Comer</td><td class="exemplo">食べ物 (Tabemono) - Comida</td></tr>
+        <tr><td class="kanji">見</td><td class="leitura">Ken / Mi-ru</td><td class="significado">Ver / Olhar</td><td class="exemplo">花見 (Hanami) - Ver as flores</td></tr>
+        <tr><td class="kanji">書</td><td class="leitura">Sho / Ka-ku</td><td class="significado">Escrever</td><td class="exemplo">読書 (Dokusho) - Leitura</td></tr>
+    </table>
+
+    <h2>4. Movimento e Transporte (交通)</h2>
+    <table>
+        <tr>
+            <th>Kanji</th>
+            <th>Leitura</th>
+            <th>Significado</th>
+            <th>Exemplo Prático</th>
+        </tr>
+        <tr><td class="kanji">乗</td><td class="leitura">Jou / No-ru</td><td class="significado">Ride / Embarcar</td><td class="exemplo">乗り場 (Noriba) - Local de embarque</td></tr>
+        <tr><td class="kanji">車</td><td class="leitura">Sha / Kuruma</td><td class="significado">Carro / Veículo</td><td class="exemplo">電車 (Densha) - Trem</td></tr>
+        <tr><td class="kanji">出</td><td class="leitura">Shutsu / De-ru</td><td class="significado">Sair</td><td class="exemplo">外出 (Gaishutsu) - Sair de casa</td></tr>
+        <tr><td class="kanji">入</td><td class="leitura">Nyuu / Hai-ru</td><td class="significado">Entrar</td><td class="exemplo">入口 (Iriguchi) - Entrada</td></tr>
+        <tr><td class="kanji">道</td><td class="leitura">Dou / Michi</td><td class="significado">Caminho / Rua</td><td class="exemplo">水道 (Suidou) - Água encanada</td></tr>
+    </table>
+
+    <h2>5. Posição e Direção (方向)</h2>
+    <table>
+        <tr>
+            <th>Kanji</th>
+            <th>Leitura</th>
+            <th>Significado</th>
+            <th>Exemplo Prático</th>
+        </tr>
+        <tr><td class="kanji">上</td><td class="leitura">Jou / Ue</td><td class="significado">Cima</td><td class="exemplo">川上 (Kawakami) - Curso superior do rio</td></tr>
+        <tr><td class="kanji">下</td><td class="leitura">Ka / Shita</td><td class="significado">Baixo</td><td class="exemplo">地下鉄 (Chikatetsu) - Metrô</td></tr>
+        <tr><td class="kanji">中</td><td class="leitura">Chuu / Naka</td><td class="significado">Dentro / Meio</td><td class="exemplo">中国 (Chuugoku) - China</td></tr>
+        <tr><td class="kanji">左</td><td class="leitura">Sa / Hidari</td><td class="significado">Esquerda</td><td class="exemplo">左手 (Hidari-te) - Mão esquerda</td></tr>
+        <tr><td class="kanji">右</td><td class="leitura">U / Migi</td><td class="significado">Direita</td><td class="exemplo">右手 (Migi-te) - Mão direita</td></tr>
+    </table>
+
+    <h2>6. Pessoas e Família (人と家族)</h2>
+    <table>
+        <tr>
+            <th>Kanji</th>
+            <th>Leitura</th>
+            <th>Significado</th>
+            <th>Exemplo Prático</th>
+        </tr>
+        <tr><td class="kanji">人</td><td class="leitura">Jin, Nin / Hito</td><td class="significado">Pessoa</td><td class="exemplo">大人 (Otona) - Adulto</td></tr>
+        <tr><td class="kanji">父</td><td class="leitura">Fu / Chichi</td><td class="significado">Pai</td><td class="exemplo">父母 (Fubo) - Pai e mãe</td></tr>
+        <tr><td class="kanji">母</td><td class="leitura">Bo / Haha</td><td class="significado">Mãe</td><td class="exemplo">母国 (Bokoku) - Pátria mãe</td></tr>
+        <tr><td class="kanji">子</td><td class="leitura">Shi / Ko</td><td class="significado">Criança</td><td class="exemplo">子供 (Kodomo) - Criança/Filho</td></tr>
+        <tr><td class="kanji">男</td><td class="leitura">Dan / Otoko</td><td class="significado">Homem</td><td class="exemplo">長男 (Chounan) - Filho mais velho</td></tr>
+    </table>
+
+    <h2>7. Escola e Aprendizado (学問)</h2>
+    <table>
+        <tr>
+            <th>Kanji</th>
+            <th>Leitura</th>
+            <th>Significado</th>
+            <th>Exemplo Prático</th>
+        </tr>
+        <tr><td class="kanji">学</td><td class="leitura">Gaku / Mana-bu</td><td class="significado">Estudar</td><td class="exemplo">大学 (Daigaku) - Universidade</td></tr>
+        <tr><td class="kanji">先</td><td class="leitura">Sen / Saki</td><td class="significado">Anterior</td><td class="exemplo">先月 (Sengetsu) - Mês passado</td></tr>
+        <tr><td class="kanji">生</td><td class="leitura">Sei / I-kiru</td><td class="significado">Vida</td><td class="exemplo">一生 (Isshou) - Uma vida inteira</td></tr>
+        <tr><td class="kanji">校</td><td class="leitura">Kou</td><td class="significado">Escola</td><td class="exemplo">高校 (Koukou) - Ensino médio</td></tr>
+        <tr><td class="kanji">本</td><td class="leitura">Hon / Moto</td><td class="significado">Livro / Base</td><td class="exemplo">一本 (Ippon) - Um objeto longo (contador)</td></tr>
+    </table>
+
+    <div class="footer">
+        <p>Criado para suporte aos estudos de Mateus. Ganbare! (がんばれ!)</p>
+    </div>
+
+</body>
+</html>
