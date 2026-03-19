@@ -1359,6 +1359,11 @@ body:has(.fullscreen-modal.fs-open) {
   font-size: clamp(16rem, 50vw, 40rem);
 }
 
+body.kanji-n5 .fullscreen-modal .char,
+body.kanji-n4 .fullscreen-modal .char {
+  font-size: clamp(32rem, 100vw, 80rem);
+}
+
 .fullscreen-modal .char-pair {
   gap: 4rem;
 }
