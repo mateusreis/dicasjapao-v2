@@ -251,7 +251,6 @@ function startTimer() {
   clearTimeout(timerId);
   const duration = getDuration();
 
-  if (timerBarToggle.value !== 'hide') timerBarWrap.style.display = 'block';
   timerBar.style.transition  = 'none';
   timerBar.style.width       = '100%';
   timerBar.getBoundingClientRect();
@@ -387,6 +386,7 @@ const fsCharDisplay    = document.getElementById('fsCharDisplay');
 const fsCaptionSection = document.getElementById('fsCaptionSection');
 const fsCaptionRomanji = document.getElementById('fsCaptionRomanji');
 const fsCaptionMeaning = document.getElementById('fsCaptionMeaning');
+const fsTimerBar       = document.getElementById('fsTimerBar');
 
 function syncFullscreen() {
   fsCharDisplay.textContent = charDisplay.textContent;

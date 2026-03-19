@@ -203,12 +203,15 @@ function startTimer() {
   const duration = getDuration();
 
   // animate progress bar
-  if (timerBarToggle.value !== 'hide') timerBarWrap.style.display = 'block';
   timerBar.style.transition = 'none';
   timerBar.style.width = '100%';
+  fsTimerBar.style.transition = 'none';
+  fsTimerBar.style.width = '100%';
   timerBar.getBoundingClientRect(); // force reflow
   timerBar.style.transition = `width ${duration}ms linear`;
   timerBar.style.width = '0%';
+  fsTimerBar.style.transition = `width ${duration}ms linear`;
+  fsTimerBar.style.width = '0%';
 
   timerId = setTimeout(onTimerEnd, duration);
 }
@@ -217,7 +220,9 @@ function stopTimer() {
   clearTimeout(timerId);
   timerId = null;
   timerBar.style.transition = 'none';
-  timerBarWrap.style.display = 'none';
+  timerBar.style.width = '0%';
+  fsTimerBar.style.transition = 'none';
+  fsTimerBar.style.width = '0%';
 }
 
 function onTimerEnd() {
@@ -413,6 +418,7 @@ const fsCharDisplay    = document.getElementById('fsCharDisplay');
 const fsCaptionSection = document.getElementById('fsCaptionSection');
 const fsCaptionRomanji = document.getElementById('fsCaptionRomanji');
 const fsCaptionMeaning = document.getElementById('fsCaptionMeaning');
+const fsTimerBar       = document.getElementById('fsTimerBar');
 
 function syncFullscreen() {
   fsCharDisplay.textContent = charDisplay.textContent;
