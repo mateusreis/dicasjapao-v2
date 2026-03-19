@@ -70,6 +70,9 @@
 
   <!-- ───────────── CHARACTER SECTION ───────────── -->
   <section class="character-section">
+    <button class="btn-fullscreen" id="btnFullscreen" aria-label="Fullscreen">
+      <i class="fa-solid fa-expand" aria-hidden="true"></i>
+    </button>
     <div class="char-pair" id="charPair">
       <div class="char-col">
         <span class="char-script-label">Hiragana</span>
@@ -127,6 +130,28 @@
 
     </div>
   </section>
+
+  <!-- ───────────── FULLSCREEN MODAL ───────────── -->
+  <div class="fullscreen-modal" id="fullscreenModal" aria-hidden="true">
+    <section class="character-section fs-char-section">
+      <div class="char-pair">
+        <div class="char-col">
+          <span class="char-script-label">Hiragana</span>
+          <span class="char" id="fsCharH"></span>
+        </div>
+        <div class="char-col">
+          <span class="char-script-label">Katakana</span>
+          <span class="char" id="fsCharK"></span>
+        </div>
+      </div>
+    </section>
+    <section class="caption-section fs-caption-section" id="fsCaptionSection">
+      <div class="caption-section-inner">
+        <p class="romanji" id="fsCaptionRomanji"></p>
+        <p class="meaning" id="fsCaptionMeaning"></p>
+      </div>
+    </section>
+  </div>
 
   <!-- ───────────── CHARACTERS ───────────── -->
   <section class="checklist-section">

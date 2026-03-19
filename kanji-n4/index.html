@@ -39,6 +39,9 @@
 
   <!-- ───────────── CHARACTER SECTION ───────────── -->
   <section class="character-section">
+    <button class="btn-fullscreen" id="btnFullscreen" aria-label="Fullscreen">
+      <i class="fa-solid fa-expand" aria-hidden="true"></i>
+    </button>
     <span class="char" id="charDisplay" title="うみ (umi)">海</span>
     <div class="timer-bar-wrap" id="timerBarWrap" style="display:none;">
       <div class="timer-bar" id="timerBar"></div>
@@ -88,6 +91,19 @@
 
     </div>
   </section>
+
+  <!-- ───────────── FULLSCREEN MODAL ───────────── -->
+  <div class="fullscreen-modal" id="fullscreenModal" aria-hidden="true">
+    <section class="character-section fs-char-section">
+      <span class="char" id="fsCharDisplay"></span>
+    </section>
+    <section class="caption-section fs-caption-section" id="fsCaptionSection">
+      <div class="caption-section-inner">
+        <p class="romanji" id="fsCaptionRomanji"></p>
+        <p class="meaning" id="fsCaptionMeaning"></p>
+      </div>
+    </section>
+  </div>
 
   <!-- ───────────── KANJI GROUPS ───────────── -->
   <section class="checklist-section">

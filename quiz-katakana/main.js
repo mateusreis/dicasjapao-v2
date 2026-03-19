@@ -694,6 +694,63 @@ document.addEventListener('keydown', e => {
   }
 });
 
+// ─── Fullscreen modal ─────────────────────────────────────────────────────────
+const btnFullscreen    = document.getElementById('btnFullscreen');
+const fullscreenModal  = document.getElementById('fullscreenModal');
+const fsCharDisplay    = document.getElementById('fsCharDisplay');
+const fsCaptionSection = document.getElementById('fsCaptionSection');
+const fsCaptionRomanji = document.getElementById('fsCaptionRomanji');
+const fsCaptionMeaning = document.getElementById('fsCaptionMeaning');
+
+function syncFullscreen() {
+  fsCharDisplay.textContent = charDisplay.textContent;
+  fsCharDisplay.style.fontFamily = charDisplay.style.fontFamily;
+  fsCharDisplay.className = charDisplay.className;
+  if (captionSection.classList.contains('caption--hidden')) {
+    fsCaptionSection.classList.add('caption--hidden');
+  } else {
+    fsCaptionRomanji.textContent = captionRomanji.textContent;
+    fsCaptionMeaning.innerHTML   = captionMeaning.innerHTML;
+    fsCaptionSection.classList.remove('caption--hidden');
+  }
+}
+
+function openFullscreen() {
+  syncFullscreen();
+  fullscreenModal.classList.add('fs-open');
+  fullscreenModal.setAttribute('aria-hidden', 'false');
+  btnFullscreen.querySelector('i').className = 'fa-solid fa-compress';
+}
+
+function closeFullscreen() {
+  fullscreenModal.classList.remove('fs-open');
+  fullscreenModal.setAttribute('aria-hidden', 'true');
+  btnFullscreen.querySelector('i').className = 'fa-solid fa-expand';
+}
+
+btnFullscreen.addEventListener('click', () => {
+  fullscreenModal.classList.contains('fs-open') ? closeFullscreen() : openFullscreen();
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && fullscreenModal.classList.contains('fs-open')) {
+    closeFullscreen();
+  }
+});
+
+// keep modal in sync when char changes
+const _origShowChar = showChar;
+showChar = function(entry, pushHistory) {
+  _origShowChar(entry, pushHistory);
+  if (fullscreenModal.classList.contains('fs-open')) syncFullscreen();
+};
+
+const _origRevealCaption = revealCaption;
+revealCaption = function() {
+  _origRevealCaption();
+  if (fullscreenModal.classList.contains('fs-open')) syncFullscreen();
+};
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 loadVoiceSettings();
 loadTimerBarSetting();

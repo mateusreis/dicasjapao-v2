@@ -839,6 +839,19 @@ address { font-style: normal; }
   color: var(--accent);
 }
 
+body.hiragana .meaning,
+body.katakana .meaning,
+body.hira-kata .meaning {
+  display: none;
+}
+
+body.hiragana .romanji,
+body.katakana .romanji,
+body.hira-kata .romanji {
+  font-size: 2rem;
+  letter-spacing: 0.4em;
+}
+
 .meaning {
   font-size: 1.05rem;
   color: rgba(255,255,255,0.75);
