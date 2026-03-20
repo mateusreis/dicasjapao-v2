@@ -57,10 +57,6 @@ body.kanji-n4 .char {
   font-size: clamp(6.4rem, 20vw, 16rem);
 }
 
-/* Quiz Katakana: smaller font for multi-char words */
-body.quiz-katakana .char {
-  font-size: 14vw;
-}
 
 /* Suuji: kana reading can be long — slightly larger than default */
 body.suuji .romanji {
@@ -1335,15 +1331,78 @@ body:has(.fullscreen-modal.fs-open) {
   padding: 1.5rem;
 }
 
+
+
+
+
+
+
+    /* ── Dual character layout ───────────────────────────────── */
+    .char-pair {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 4rem;
+    }
+    .char-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .char-script-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(0,0,0,0.4);
+      font-family: 'Jost', sans-serif;
+    }
+
+    /* .fullscreen-modal .char-script-label, 
+    .fullscreen-modal .char {
+      font-size: 4.25rem !important;
+    } */
+
+
+
+    .fullscreen-modal .char-pair .char {
+      font-size: 17rem;
+    }
+
+    .char-pair .char {
+      font-size: clamp(4rem, 18vw, 11rem);
+    }
+    
+    @media (max-width: 540px) {
+      .char-pair { gap: 2rem; }
+    }
+
+    .character-section .char-pair {
+      gap: 4rem;
+      font-size: clamp(4rem, 18vw, 41rem);
+    }
+    
+
+
 .fullscreen-modal .char {
   font-size: clamp(16rem, 50vw, 40rem);
 }
 
 body.kanji-n5 .fullscreen-modal .char,
 body.kanji-n4 .fullscreen-modal .char {
-  font-size: clamp(32rem, 100vw, 40rem);
+  font-size: clamp(32rem, 100vw, 30rem);
+}
+/* Quiz Katakana: smaller font for multi-char words */
+body.quiz-hiragana .char,
+body.quiz-katakana .char {
+  font-size: 14vw;
 }
 
-.fullscreen-modal .char-pair {
-  gap: 4rem;
+body.quiz-hiragana .fullscreen-modal .char{
+  font-size: 20rem;
+}
+
+body.suuji .fullscreen-modal .char {
+  font-size: 7rem;
 }

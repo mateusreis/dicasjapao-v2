@@ -243,7 +243,28 @@ function onTimerEnd() {
 }
 
 // ─── Play / Stop ──────────────────────────────────────────────────────────────
+function playToggleSound(playing) {
+  const ctx = new (window.AudioContext || window.webkitAudioContext)();
+  const osc = ctx.createOscillator();
+  const gain = ctx.createGain();
+  osc.connect(gain);
+  gain.connect(ctx.destination);
+  osc.type = 'sine';
+  if (playing) {
+    osc.frequency.setValueAtTime(880, ctx.currentTime);
+    osc.frequency.exponentialRampToValueAtTime(1320, ctx.currentTime + 0.08);
+  } else {
+    osc.frequency.setValueAtTime(660, ctx.currentTime);
+    osc.frequency.exponentialRampToValueAtTime(440, ctx.currentTime + 0.08);
+  }
+  gain.gain.setValueAtTime(0.3, ctx.currentTime);
+  gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.15);
+  osc.start(ctx.currentTime);
+  osc.stop(ctx.currentTime + 0.15);
+}
+
 function setPlaying(val) {
+  playToggleSound(val);
   isPlaying = val;
   if (val) {
     btnTimer.classList.add('buttons--active');
@@ -455,8 +476,8 @@ btnFullscreen.addEventListener('click', () => {
 });
 
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape' && fullscreenModal.classList.contains('fs-open')) {
-    closeFullscreen();
+  if (e.key === 'Escape') {
+    fullscreenModal.classList.contains('fs-open') ? closeFullscreen() : openFullscreen();
   }
 });
 

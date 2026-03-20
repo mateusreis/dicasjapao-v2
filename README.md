@@ -96,3 +96,11 @@ Copyright © Ovelha Elétrica — Todos os direitos reservados.
 
     {c:'サス',r:'sasu',m:'to point'}, https://jisho.org/search/%E3%82%B5%E3%82%B9
 
+
+BUG EM
+
+    .character-section .char-pair {
+      gap: 4rem;
+    font-size: clamp(4rem, 18vw, 41rem);
+    }
+
