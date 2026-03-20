@@ -1329,6 +1329,9 @@ body:has(.fullscreen-modal.fs-open) {
 
 .fullscreen-modal .fs-caption-section {
   padding: 1.5rem;
+  height: 6rem;
+  flex-shrink: 0;
+  overflow: hidden;
 }
 
 
