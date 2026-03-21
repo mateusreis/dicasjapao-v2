@@ -103,7 +103,6 @@ let timerId    = null;
 let isPlaying  = false;
 let isSpeaking = false;
 let speakToken = 0;
-let currentAudio = null;      // active Audio element
 let history    = [];
 const MAX_HIST = 50;
 
@@ -148,7 +147,7 @@ function showChar(entry, pushHistory = true) {
   isSpeaking = false;
   speakToken++;
   btnPlay.classList.remove('btn--say-on');
-  if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+  if (window.speechSynthesis) speechSynthesis.cancel();
 }
 
 function revealCaption() {
@@ -219,7 +218,6 @@ function showNoVoiceModal() {
   });
 }
 
-
 // Android Chrome requires a user gesture before speechSynthesis.speak() works
 document.addEventListener('touchstart', () => {
   const utt = new SpeechSynthesisUtterance('');
@@ -227,9 +225,9 @@ document.addEventListener('touchstart', () => {
 }, { once: true });
 
 function getSelectedVoice() {
-  const voices  = cachedVoices;
-  const jaAll   = voices.filter(v => v.lang.startsWith('ja'));
-  const pref    = speechVoice ? speechVoice.value : '';
+  const voices = cachedVoices;
+  const jaAll  = voices.filter(v => v.lang.startsWith('ja'));
+  const pref   = speechVoice ? speechVoice.value : '';
 
   if (!pref) {
     return jaAll[0]
@@ -271,29 +269,32 @@ function loadTimerBarSetting() {
 }
 
 // ─── Speech ───────────────────────────────────────────────────────────────────
-function textToFilename(text) {
-  return Array.from(text).map(c => c.codePointAt(0).toString(16).padStart(4,'0')).join('_') + '.mp3';
-}
 function speak(onDone) {
+  if (!window.speechSynthesis) return;
   const token = ++speakToken;
-  if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+  speechSynthesis.cancel();
 
   isSpeaking = true;
   btnPlay.classList.add('btn--say-on');
 
-  const done = () => {
+  const utt = new SpeechSynthesisUtterance(current.kana);
+  utt.lang  = 'ja-JP';
+  utt.rate  = parseFloat(speechRate.value) || 1;
+  const selVoice = getSelectedVoice();
+  if (selVoice) utt.voice = selVoice;
+
+  let called = false;
+  const cleanup = () => {
     if (token !== speakToken) return;
+    if (called) return; called = true;
     isSpeaking = false;
     btnPlay.classList.remove('btn--say-on');
     if (onDone) onDone();
   };
 
-  const audio = new Audio('/audio/' + textToFilename(current.kana));
-  currentAudio = audio;
-  audio.playbackRate = parseFloat(speechRate.value) || 1;
-  audio.onended = done;
-  audio.onerror = done;
-  audio.play().catch(done);
+  utt.onend   = cleanup;
+  utt.onerror = cleanup;
+  speechSynthesis.speak(utt);
 }
 
 // ─── Timer ────────────────────────────────────────────────────────────────────

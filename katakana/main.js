@@ -100,6 +100,7 @@ function showChar(entry, pushHistory = true) {
   speakToken++;                           // invalidate any in-flight speak callback
   btnPlay.classList.remove('btn--say-on');
   if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+  if (window.speechSynthesis) speechSynthesis.cancel();
 }
 
 function revealCaption() {
@@ -238,12 +239,24 @@ function speak(onDone) {
     if (onDone) onDone();
   };
 
-  const audio = new Audio('/audio/' + textToFilename(current.c));
-  currentAudio = audio;
-  audio.playbackRate = parseFloat(speechRate.value) || 1;
-  audio.onended = done;
-  audio.onerror = done;
-  audio.play().catch(done);
+  if (window.speechSynthesis) {
+    speechSynthesis.cancel();
+    const utt = new SpeechSynthesisUtterance(current.c);
+    utt.lang = 'ja-JP';
+    utt.rate = parseFloat(speechRate.value) || 1;
+    const selVoice = getSelectedVoice();
+    if (selVoice) utt.voice = selVoice;
+    utt.onend   = done;
+    utt.onerror = done;
+    speechSynthesis.speak(utt);
+  } else {
+    const audio = new Audio('/audio/' + textToFilename(current.c));
+    currentAudio = audio;
+    audio.playbackRate = parseFloat(speechRate.value) || 1;
+    audio.onended = done;
+    audio.onerror = done;
+    audio.play().catch(done);
+  }
 }
 
 // ─── Timer ────────────────────────────────────────────────────────────────────

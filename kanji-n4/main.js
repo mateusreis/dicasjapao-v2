@@ -238,6 +238,7 @@ function showChar(entry, pushHistory = true) {
   speakToken++;
   btnPlay.classList.remove('btn--say-on');
   if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+  if (window.speechSynthesis) speechSynthesis.cancel();
 }
 
 function revealCaption() {
@@ -386,12 +387,25 @@ function speak(onDone) {
   // Speak the kana reading(s), not the kanji — a single kanji is ambiguous for TTS.
   const kanaReadings = current.r.split(' (')[0].split('・').map(k => k.trim());
   const kana = kanaReadings.join('、');
-  const audio = new Audio('/audio/' + textToFilename(kana));
-  currentAudio = audio;
-  audio.playbackRate = parseFloat(speechRate.value) || 1;
-  audio.onended = done;
-  audio.onerror = done;
-  audio.play().catch(done);
+
+  if (window.speechSynthesis) {
+    speechSynthesis.cancel();
+    const utt = new SpeechSynthesisUtterance(kana);
+    utt.lang = 'ja-JP';
+    utt.rate = parseFloat(speechRate.value) || 1;
+    const selVoice = getSelectedVoice();
+    if (selVoice) utt.voice = selVoice;
+    utt.onend   = done;
+    utt.onerror = done;
+    speechSynthesis.speak(utt);
+  } else {
+    const audio = new Audio('/audio/' + textToFilename(kana));
+    currentAudio = audio;
+    audio.playbackRate = parseFloat(speechRate.value) || 1;
+    audio.onended = done;
+    audio.onerror = done;
+    audio.play().catch(done);
+  }
 }
 
 // ─── Timer ────────────────────────────────────────────────────────────────────
