@@ -200,6 +200,7 @@ let timerId    = null;
 let isPlaying  = false;
 let isSpeaking = false;
 let speakToken = 0;
+let currentAudio = null;      // active Audio element
 let history    = [];
 const MAX_HIST = 50;
 
@@ -236,7 +237,7 @@ function showChar(entry, pushHistory = true) {
   isSpeaking = false;
   speakToken++;
   btnPlay.classList.remove('btn--say-on');
-  speechSynthesis.cancel();
+  if (currentAudio) { currentAudio.pause(); currentAudio = null; }
 }
 
 function revealCaption() {
@@ -365,35 +366,32 @@ function loadTimerBarSetting() {
 }
 
 // ─── Speech ───────────────────────────────────────────────────────────────────
+function textToFilename(text) {
+  return Array.from(text).map(c => c.codePointAt(0).toString(16).padStart(4,'0')).join('_') + '.mp3';
+}
 function speak(onDone) {
-  if (!window.speechSynthesis) return;
   const token = ++speakToken;
-  speechSynthesis.cancel();
+  if (currentAudio) { currentAudio.pause(); currentAudio = null; }
 
   isSpeaking = true;
   btnPlay.classList.add('btn--say-on');
 
-  // Speak the kana reading(s), not the kanji — a single kanji is ambiguous for TTS.
-  const kanaReadings = current.r.split(' (')[0].split('・').map(k => k.trim());
-  const kana = kanaReadings.join('、');
-  const utt = new SpeechSynthesisUtterance(kana);
-  utt.lang = 'ja-JP';
-  utt.rate = parseFloat(speechRate.value);
-  const selVoice = getSelectedVoice();
-  if (selVoice) utt.voice = selVoice;
-
-  let called = false;
-  const cleanup = () => {
+  const done = () => {
     if (token !== speakToken) return;
-    if (called) return; called = true;
     isSpeaking = false;
     btnPlay.classList.remove('btn--say-on');
     if (onDone) onDone();
   };
 
-  utt.onend   = cleanup;
-  utt.onerror = cleanup;
-  speechSynthesis.speak(utt);
+  // Speak the kana reading(s), not the kanji — a single kanji is ambiguous for TTS.
+  const kanaReadings = current.r.split(' (')[0].split('・').map(k => k.trim());
+  const kana = kanaReadings.join('、');
+  const audio = new Audio('/audio/' + textToFilename(kana));
+  currentAudio = audio;
+  audio.playbackRate = parseFloat(speechRate.value) || 1;
+  audio.onended = done;
+  audio.onerror = done;
+  audio.play().catch(done);
 }
 
 // ─── Timer ────────────────────────────────────────────────────────────────────

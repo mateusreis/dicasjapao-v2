@@ -221,33 +221,29 @@ function loadTimerBarSetting() {
   if (v) timerBarToggle.value = v;
 }
 
+function textToFilename(text) {
+  return Array.from(text).map(c => c.codePointAt(0).toString(16).padStart(4,'0')).join('_') + '.mp3';
+}
 function speak(onDone) {
-  if (!window.speechSynthesis) return;
   const token = ++speakToken;
-  speechSynthesis.cancel();
+  if (currentAudio) { currentAudio.pause(); currentAudio = null; }
 
-  // Lock & highlight immediately — don't wait for onstart
   isSpeaking = true;
   btnPlay.classList.add('btn--say-on');
 
-  const utt = new SpeechSynthesisUtterance(current.c);
-  utt.lang = 'ja-JP';
-  utt.rate = parseFloat(speechRate.value);
-  const selVoice = getSelectedVoice();
-  if (selVoice) utt.voice = selVoice;
-
-  let called = false;
-  const cleanup = () => {
-    if (token !== speakToken) return;  // cancelled by showChar or a newer speak()
-    if (called) return; called = true;
+  const done = () => {
+    if (token !== speakToken) return;
     isSpeaking = false;
     btnPlay.classList.remove('btn--say-on');
     if (onDone) onDone();
   };
 
-  utt.onend   = cleanup;
-  utt.onerror = cleanup;
-  speechSynthesis.speak(utt);
+  const audio = new Audio('/audio/' + textToFilename(current.c));
+  currentAudio = audio;
+  audio.playbackRate = parseFloat(speechRate.value) || 1;
+  audio.onended = done;
+  audio.onerror = done;
+  audio.play().catch(done);
 }
 
 // ─── Timer ────────────────────────────────────────────────────────────────────

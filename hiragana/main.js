@@ -245,6 +245,7 @@ function speak(onDone) {
 
   const audio = new Audio('/audio/' + textToFilename(current.c));
   currentAudio = audio;
+  audio.playbackRate = parseFloat(speechRate.value) || 1;
   audio.onended = done;
   audio.onerror = done;
   audio.play().catch(done);
