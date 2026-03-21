@@ -1186,7 +1186,7 @@ body.hira-kata .romanji {
 
   /* Cards */
   .cards-grid {
-    grid-template-columns: 1fr;6
+    grid-template-columns: 1fr;
   }
 
   .card-img { height: 200px; }
