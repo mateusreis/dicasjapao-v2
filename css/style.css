@@ -469,28 +469,6 @@ address { font-style: normal; }
   color: rgba(255,255,255,0.8);
 }
 
-/* Brand col */
-.footer-logo {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
-  color: var(--accent);
-  margin-bottom: 1rem;
-}
-.footer-logo .logo-kanji { font-size: 1.65rem; }
-.footer-logo .logo-sub   { font-size: 0.52rem; }
-
-.footer-brand address {
-  font-size: 0.88rem;
-  line-height: 1.8;
-  color: rgba(255,255,255,0.6);
-}
-.footer-brand address a {
-  color: var(--accent);
-  font-weight: 600;
-}
-.footer-brand address a:hover { text-decoration: underline; }
-
 /* Heading */
 .footer-heading {
   font-size: 0.72rem;
@@ -500,59 +478,6 @@ address { font-style: normal; }
   color: rgba(255,255,255,0.4);
   margin-bottom: 1rem;
 }
-
-/* Footer links */
-.footer-links { display: flex; flex-direction: column; gap: 0.55rem; }
-.footer-links a {
-  font-size: 0.92rem;
-  color: rgba(255,255,255,0.75);
-  transition: color 0.2s;
-}
-.footer-links a:hover { color: var(--white); }
-
-/* Newsletter */
-.footer-newsletter p {
-  font-size: 0.88rem;
-  color: rgba(255,255,255,0.6);
-  margin-bottom: 1rem;
-}
-
-.newsletter-form {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.newsletter-form input {
-  flex: 1;
-  padding: 0.65rem 0.9rem;
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.18);
-  border-radius: var(--radius);
-  color: var(--white);
-  font-family: var(--font);
-  font-size: 0.88rem;
-  outline: none;
-  transition: border-color 0.2s;
-}
-.newsletter-form input::placeholder { color: rgba(255,255,255,0.35); }
-.newsletter-form input:focus { border-color: var(--accent); }
-
-.newsletter-form button {
-  padding: 0.65rem 1.1rem;
-  background: var(--accent);
-  color: var(--black);
-  font-family: var(--font);
-  font-size: 0.82rem;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  border: none;
-  border-radius: var(--radius);
-  cursor: pointer;
-  white-space: nowrap;
-  transition: background 0.2s;
-}
-.newsletter-form button:hover { background: var(--accent-dark); }
 
 /* Bottom bar */
 .footer-bar {
