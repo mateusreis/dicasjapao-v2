@@ -62,6 +62,7 @@ let timerId    = null;
 let isPlaying  = false;
 let isSpeaking = false;       // true while speech synthesis is active
 let speakToken = 0;           // increments on each speak(); guards stale callbacks
+let currentAudio = null;      // active Audio element
 let history    = [];   // stack of past characters
 const MAX_HIST = 50;
 
@@ -98,7 +99,7 @@ function showChar(entry, pushHistory = true) {
   isSpeaking = false;
   speakToken++;                           // invalidate any in-flight speak callback
   btnPlay.classList.remove('btn--say-on');
-  speechSynthesis.cancel();
+  if (currentAudio) { currentAudio.pause(); currentAudio = null; }
 }
 
 function revealCaption() {
@@ -120,8 +121,64 @@ function showPrev() {
 const speechRate  = document.getElementById('speechRate');
 const speechVoice = document.getElementById('speechVoice');
 
+let cachedVoices = speechSynthesis.getVoices();
+speechSynthesis.addEventListener('voiceschanged', () => {
+  cachedVoices = speechSynthesis.getVoices();
+  if (!cachedVoices.some(v => v.lang.startsWith('ja'))) showNoVoiceModal();
+});
+
+function showNoVoiceModal() {
+  if (getCookie('tts_notice_seen')) return;
+
+  const overlay = document.createElement('div');
+  overlay.style.cssText = [
+    'position:fixed', 'inset:0', 'background:rgba(0,0,0,0.75)',
+    'display:flex', 'align-items:center', 'justify-content:center',
+    'z-index:9999', 'padding:1.5rem'
+  ].join(';');
+
+  overlay.innerHTML = `
+    <div style="background:#e8ff00;padding:2rem;max-width:420px;width:100%;position:relative;
+                color:#111;font-family:var(--font);line-height:1.6;">
+      <button id="ttsModalClose" style="position:absolute;top:0.75rem;right:0.75rem;
+              background:none;border:none;color:#111;font-size:1.25rem;
+              cursor:pointer;padding:0.25rem 0.5rem;">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <p style="margin:0 0 0.75rem;font-size:1rem;display:flex;align-items:center;gap:0.5rem;">
+        <i class="fa-solid fa-volume-xmark" style="color:#111;"></i>
+        <strong>Sem voz japonesa instalada</strong>
+      </p>
+      <p style="margin:0 0 1.25rem;font-size:0.875rem;color:#333;">
+        O Speech Synthesis API só fala idiomas que o dispositivo tem instalado.
+      </p>
+      <p style="margin:0;font-size:0.8rem;color:#444;">
+        <i class="fa-solid fa-gear" style="color:#111;"></i>
+        Configurações → Gerenciamento geral → Idioma e entrada →
+        Saída de texto para fala → Google Text-to-Speech →
+        <i class="fa-solid fa-gear" style="color:#111;"></i>
+        → Instalar dados de voz → <strong style="color:#111;">Japonês</strong>
+      </p>
+    </div>
+  `;
+
+  document.body.appendChild(overlay);
+
+  document.getElementById('ttsModalClose').addEventListener('click', () => {
+    setCookie('tts_notice_seen', '1', 365);
+    overlay.remove();
+  });
+}
+
+
+// Android Chrome requires a user gesture before speechSynthesis.speak() works
+document.addEventListener('touchstart', () => {
+  const utt = new SpeechSynthesisUtterance('');
+  speechSynthesis.speak(utt);
+}, { once: true });
+
 function getSelectedVoice() {
-  const voices  = speechSynthesis.getVoices();
+  const voices  = cachedVoices;
   const jaAll   = voices.filter(v => v.lang.startsWith('ja'));
   const pref    = speechVoice ? speechVoice.value : '';
 
@@ -476,6 +533,8 @@ document.addEventListener('keydown', e => {
     fullscreenModal.classList.contains('fs-open') ? closeFullscreen() : openFullscreen();
   }
 });
+
+fullscreenModal.addEventListener('click', closeFullscreen);
 
 // keep modal in sync when char changes
 const _origShowChar = showChar;

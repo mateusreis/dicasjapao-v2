@@ -1,6 +1,6 @@
 # 電気羊 – Ovelha Elétrica
 
-**Versão: 1.0**
+**Versão: 1.1**
 
 Site de flashcards interativos para aprender o sistema de escrita japonês — um caractere por vez.
 
