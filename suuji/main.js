@@ -167,7 +167,6 @@ function showPrev() {
 
 // ─── Voice settings (shared via cookie across all pages) ─────────────────────
 const speechRate  = document.getElementById('speechRate');
-const speechVoice = document.getElementById('speechVoice');
 
 let cachedVoices = speechSynthesis.getVoices();
 speechSynthesis.addEventListener('voiceschanged', () => {
@@ -224,33 +223,11 @@ document.addEventListener('touchstart', () => {
   speechSynthesis.speak(utt);
 }, { once: true });
 
-function getSelectedVoice() {
-  const voices = cachedVoices;
-  const jaAll  = voices.filter(v => v.lang.startsWith('ja'));
-  const pref   = speechVoice ? speechVoice.value : '';
-
-  if (!pref) {
-    return jaAll[0]
-        || voices.find(v => v.lang === 'ja-JP')
-        || null;
-  }
-
-  const byKeyword = jaAll.filter(v => v.name.toLowerCase().includes(pref));
-  if (byKeyword.length) return byKeyword[0];
-
-  if (pref === 'female') return jaAll[0] || null;
-  if (pref === 'male')   return jaAll[jaAll.length - 1] || jaAll[0] || null;
-  return null;
-}
-
 speechRate.addEventListener('change', () => setCookie('speech_rate', speechRate.value));
-speechVoice.addEventListener('change', () => setCookie('speech_voice', speechVoice.value));
 
 function loadVoiceSettings() {
   const rate  = getCookie('speech_rate');
-  const voice = getCookie('speech_voice');
   if (rate)  speechRate.value  = rate;
-  if (voice) speechVoice.value = voice;
 }
 
 timerBarToggle.addEventListener('change', () => {
@@ -280,8 +257,6 @@ function speak(onDone) {
   const utt = new SpeechSynthesisUtterance(current.kana);
   utt.lang  = 'ja-JP';
   utt.rate  = parseFloat(speechRate.value) || 1;
-  const selVoice = getSelectedVoice();
-  if (selVoice) utt.voice = selVoice;
 
   let called = false;
   const cleanup = () => {
