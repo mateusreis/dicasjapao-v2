@@ -244,7 +244,7 @@ function showChar(entry, pushHistory = true) {
 function revealCaption() {
   captionRomanji.textContent = current.r;
   captionMeaning.innerHTML =
-    `The kanji <strong>${current.c}</strong> means <em>${current.m}</em>.`;
+    `O kanji <strong>${current.c}</strong> significa <em>${current.m}</em>.`;
 
   let tagsHtml = '';
   if (current.on)  tagsHtml += `<span class="rtag rtag--on">音</span><span class="rtag-val">${current.on}</span>`;

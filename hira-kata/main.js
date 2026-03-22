@@ -110,7 +110,7 @@ function showChar(entry, pushHistory = true) {
 function revealCaption() {
   captionRomanji.textContent = current.r.toUpperCase();
   captionMeaning.innerHTML =
-    `Hiragana <strong>${current.h}</strong> and katakana <strong>${current.k}</strong> are romanised as <em>${current.r}</em>.`;
+    `Hiragana <strong>${current.h}</strong> e katakana <strong>${current.k}</strong> são romanizados como <em>${current.r}</em>.`;
   captionSection.classList.remove('caption--hidden');
 }
 
@@ -221,7 +221,7 @@ function speak(onDone) {
     if (onDone) onDone();
   };
 
-  if (window.speechSynthesis) {
+  if (window.speechSynthesis && speechSynthesis.getVoices().some(v => v.lang.startsWith('ja'))) {
     speechSynthesis.cancel();
     const utt = new SpeechSynthesisUtterance(current.h);
     utt.lang = 'ja-JP';

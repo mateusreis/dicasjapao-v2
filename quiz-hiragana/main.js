@@ -735,7 +735,7 @@ function speak(onDone) {
     if (onDone) onDone();
   };
 
-  if (window.speechSynthesis) {
+  if (window.speechSynthesis && speechSynthesis.getVoices().some(v => v.lang.startsWith('ja'))) {
     speechSynthesis.cancel();
     const utt = new SpeechSynthesisUtterance(current.c);
     utt.lang = 'ja-JP';

@@ -915,12 +915,14 @@ body.hira-kata .romanji {
 }
 
 .checklist-title {
+  font-family: 'Jost', 'Futura', 'Century Gothic', Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 900;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   line-height: 1;
   margin-bottom: 0.75rem;
+  padding:2rem 0;
 }
 
 .checklist-grid {

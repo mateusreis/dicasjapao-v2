@@ -106,7 +106,7 @@ function showChar(entry, pushHistory = true) {
 function revealCaption() {
   captionRomanji.textContent = current.r.toUpperCase();
   captionMeaning.innerHTML =
-    `The katakana character <strong>${current.c}</strong> is romanised as <em>${current.r}</em>.`;
+    `O caractere katakana <strong>${current.c}</strong> é romanizado como <em>${current.r}</em>.`;
   captionSection.classList.remove('caption--hidden');
 }
 
@@ -216,7 +216,7 @@ function speak(onDone) {
     if (onDone) onDone();
   };
 
-  if (window.speechSynthesis) {
+  if (window.speechSynthesis && speechSynthesis.getVoices().some(v => v.lang.startsWith('ja'))) {
     speechSynthesis.cancel();
     const utt = new SpeechSynthesisUtterance(current.c);
     utt.lang = 'ja-JP';

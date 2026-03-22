@@ -105,7 +105,7 @@ function showChar(entry, pushHistory = true) {
 function revealCaption() {
   captionRomanji.textContent = current.r.toUpperCase();
   captionMeaning.innerHTML =
-    `The hiragana character <strong>${current.c}</strong> is romanised as <em>${current.r}</em>.`;
+    `O caractere hiragana <strong>${current.c}</strong> é romanizado como <em>${current.r}</em>.`;
   captionSection.classList.remove('caption--hidden');
 }
 
