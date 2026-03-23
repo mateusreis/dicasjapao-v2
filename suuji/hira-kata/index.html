@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M9F017GJF4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-M9F017GJF4');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <title>Flashcards Hiragana + Katakana – Pratique os Dois Silabários | Dicas Japão</title>
+  <!-- SEO -->
+  <meta name="description" content="Pratique hiragana e katakana juntos em um único app de flashcards. Cada card mostra os dois silabários lado a lado para reforçar sua memorização." />
+  <meta name="author" content="Ovelha Elétrica" />
+  <link rel="canonical" href="https://dicasjapao.com.br/hira-kata/" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dicasjapao.com.br/hira-kata/" />
+  <meta property="og:title" content="Flashcards Hiragana + Katakana – Pratique os Dois Silabários | Dicas Japão" />
+  <meta property="og:description" content="Pratique hiragana e katakana juntos em um único app de flashcards. Cada card mostra os dois silabários lado a lado para reforçar sua memorização." />
+  <meta property="og:image" content="https://dicasjapao.com.br/social.png" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Dicas Japão" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Flashcards Hiragana + Katakana – Pratique os Dois Silabários | Dicas Japão" />
+  <meta name="twitter:description" content="Pratique hiragana e katakana juntos em um único app de flashcards. Cada card mostra os dois silabários lado a lado para reforçar sua memorização." />
+  <meta name="twitter:image" content="https://dicasjapao.com.br/social.png" />
+  <link rel="stylesheet" href="../css/style.css?v=1.3" />
+  <link rel="stylesheet" href="../fonts/fonts.css?v=1.3" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Jost:wght@400;500;700;900&family=M+PLUS+Rounded+1c:wght@400;500;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <style>
+  @font-face { font-family: "Font Awesome 6 Free"; font-style: normal; font-weight: 900; font-display: swap; src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/webfonts/fa-solid-900.woff2") format("woff2"); }
+  @font-face { font-family: "Font Awesome 6 Free"; font-style: normal; font-weight: 400; font-display: swap; src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/webfonts/fa-regular-400.woff2") format("woff2"); }
+  @font-face { font-family: "Font Awesome 6 Brands"; font-style: normal; font-weight: 400; font-display: swap; src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/webfonts/fa-brands-400.woff2") format("woff2"); }
+  </style>
+</head>
+<body class="hira-kata">
+
+  <!-- ───────────── TOP NAV ───────────── -->
+  <header class="header">
+    <nav class="nav-top">
+      <a href="../" class="logo">
+        <span class="logo-kanji">日本のアドバイス</span>
+        <span class="logo-sub">DICAS JAPÃO</span>
+      </a>
+
+      <!-- hamburger (mobile) -->
+      <button class="burger" id="burgerBtn" aria-label="Alternar menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <!-- desktop links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../hiragana/">Hiragana</a></li>
+        <li><a href="../katakana/">Katakana</a></li>
+        <li><a href="." class="active">ひ+カ</a></li>
+        <li><a href="../suuji/">Suuji</a></li>
+        <li><a href="../kanji-n5/">Kanji N5</a></li>
+        <li><a href="../kanji-n4/">Kanji N4</a></li>
+        <li><a href="../quiz-hiragana/">Quiz ひ</a></li>
+        <li><a href="../quiz-katakana/">Quiz カ</a></li>
+        <li><a href="../ajuda/">Ajuda</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ───────────── CHARACTER SECTION ───────────── -->
+  <section class="character-section">
+    <button class="btn-fullscreen" id="btnFullscreen" aria-label="Tela cheia">
+      <i class="fa-solid fa-expand" aria-hidden="true"></i>
+    </button>
+    <div class="char-pair" id="charPair">
+      <div class="char-col">
+        <span class="char-script-label">Hiragana</span>
+        <span class="char" id="charH" title="a">あ</span>
+      </div>
+      <div class="char-col">
+        <span class="char-script-label">Katakana</span>
+        <span class="char" id="charK" title="a">ア</span>
+      </div>
+    </div>
+    <div class="timer-bar-wrap" id="timerBarWrap">
+      <div class="timer-bar" id="timerBar"></div>
+    </div>
+  </section>
+
+  <!-- ───────────── CAPTION SECTION ───────────── -->
+  <section class="caption-section" id="captionSection">
+    <div class="caption-section-inner">
+      <p class="romanji" id="captionRomanji">A</p>
+      <p class="meaning" id="captionMeaning">Hiragana <strong>あ</strong> e katakana <strong>ア</strong> são romanizados como <em>a</em>.</p>
+    </div>
+  </section>
+
+  <!-- ───────────── BIG BUTTONS ───────────── -->
+  <section class="buttons-section">
+    <div class="buttons-inner">
+
+      <button class="btn" id="btnTimer">
+        <span class="buttons-icon">
+          <i class="fa-regular fa-clock" aria-hidden="true"></i>
+        </span>
+        <span class="buttons-label">Timer</span>
+      </button>
+
+      <button class="btn" id="btnPrev">
+        <span class="buttons-icon">
+          <i class="fa-regular fa-circle-left" aria-hidden="true"></i>
+        </span>
+        <span class="buttons-label">Ant.</span>
+      </button>
+
+      <button class="btn" id="btnPlay">
+        <span class="buttons-icon">
+          <i class="fa-regular fa-comment-dots" aria-hidden="true"></i>
+        </span>
+        <span class="buttons-label">Falar</span>
+      </button>
+
+      <button class="btn" id="btnNext">
+        <span class="buttons-icon">
+          <i class="fa-regular fa-circle-right" aria-hidden="true"></i>
+        </span>
+        <span class="buttons-label">Próx.</span>
+      </button>
+
+    </div>
+  </section>
+
+  <!-- ───────────── FULLSCREEN MODAL ───────────── -->
+  <div class="fullscreen-modal" id="fullscreenModal" aria-hidden="true">
+    <section class="character-section fs-char-section">
+      <div class="char-pair">
+        <div class="char-col">
+          <span class="char-script-label">Hiragana</span>
+          <span class="char" id="fsCharH"></span>
+        </div>
+        <div class="char-col">
+          <span class="char-script-label">Katakana</span>
+          <span class="char" id="fsCharK"></span>
+        </div>
+      </div>
+      <div class="timer-bar-wrap" id="fsTimerBarWrap"><div class="timer-bar" id="fsTimerBar"></div></div>
+    </section>
+    <section class="caption-section fs-caption-section" id="fsCaptionSection">
+      <div class="caption-section-inner">
+        <p class="romanji" id="fsCaptionRomanji"></p>
+        <p class="meaning" id="fsCaptionMeaning"></p>
+      </div>
+    </section>
+  </div>
+
+  <!-- ───────────── CHARACTERS ───────────── -->
+  <section class="checklist-section">
+    <div class="checklist-inner">
+      <h2 class="checklist-title">Selecionar fileiras de caracteres</h2>
+      <div class="checklist-grid">
+
+        <!-- Column 1 -->
+        <ul class="checklist">
+          <li><label><input type="checkbox" data-row="vowels" checked /><span>Vogais <em>a i u e o</em></span></label></li>
+        </ul>
+
+      </div>
+
+      <hr class="separator">
+      <div class="checklist-grid">
+        <ul class="checklist">
+          <li><label><input type="checkbox" data-row="k" /><span>K-row <em>ka ki ku ke ko</em></span></label></li>
+          <li><label><input type="checkbox" data-row="s" /><span>S-row <em>sa shi su se so</em></span></label></li>
+          <li><label><input type="checkbox" data-row="t" /><span>T-row <em>ta chi tsu te to</em></span></label></li>
+          <li><label><input type="checkbox" data-row="n_row" /><span>N-row <em>na ni nu ne no</em></span></label></li>
+          <li><label><input type="checkbox" data-row="h" /><span>H-row <em>ha hi fu he ho</em></span></label></li>
+        </ul>
+
+        <!-- Column 2 -->
+        <ul class="checklist">
+          <li><label><input type="checkbox" data-row="m" /><span>M-row <em>ma mi mu me mo</em></span></label></li>
+          <li><label><input type="checkbox" data-row="y" /><span>Y-row <em>ya yu yo</em></span></label></li>
+          <li><label><input type="checkbox" data-row="r" /><span>R-row <em>ra ri ru re ro</em></span></label></li>
+          <li><label><input type="checkbox" data-row="w" /><span>W-row <em>wa wo</em></span></label></li>
+          <li><label><input type="checkbox" data-row="n_single" /><span>N <em>n</em></span></label></li>
+        </ul>
+      </div>
+
+      <hr class="separator">
+      <div class="checklist-grid">
+        <ul class="checklist">
+          <li><label><input type="checkbox" data-row="g" /><span>G-row <em>ga gi gu ge go</em></span></label></li>
+          <li><label><input type="checkbox" data-row="z" /><span>Z-row <em>za ji zu ze zo</em></span></label></li>
+          <li><label><input type="checkbox" data-row="d" /><span>D-row <em>da di du de do</em></span></label></li>
+          <li><label><input type="checkbox" data-row="b" /><span>B-row <em>ba bi bu be bo</em></span></label></li>
+          <li><label><input type="checkbox" data-row="p" /><span>P-row <em>pa pi pu pe po</em></span></label></li>
+        </ul>
+      </div>
+
+      <hr class="separator">
+      <div class="checklist-grid">
+        <!-- Column 4 -->
+        <ul class="checklist">
+          <li><label><input type="checkbox" data-row="yoon_k" /><span>K-Yōon <em>kya kyu kyo</em></span></label></li>
+          <li><label><input type="checkbox" data-row="yoon_s" /><span>S-Yōon <em>sha shu sho</em></span></label></li>
+          <li><label><input type="checkbox" data-row="yoon_t" /><span>T-Yōon <em>cha chu cho</em></span></label></li>
+          <li><label><input type="checkbox" data-row="yoon_n" /><span>N-Yōon <em>nya nyu nyo</em></span></label></li>
+          <li><label><input type="checkbox" data-row="yoon_h" /><span>H-Yōon <em>hya hyu hyo</em></span></label></li>
+        </ul>
+
+        <!-- Column 5 -->
+        <ul class="checklist">
+          <li><label><input type="checkbox" data-row="yoon_m" /><span>M-Yōon <em>mya myu myo</em></span></label></li>
+          <li><label><input type="checkbox" data-row="yoon_r" /><span>R-Yōon <em>rya ryu ryo</em></span></label></li>
+          <li><label><input type="checkbox" data-row="yoon_g" /><span>G-Yōon <em>gya gyu gyo</em></span></label></li>
+          <li><label><input type="checkbox" data-row="yoon_z" /><span>Z-Yōon <em>ja ju jo</em></span></label></li>
+          <li><label><input type="checkbox" data-row="yoon_b" /><span>B-Yōon <em>bya byu byo</em></span></label></li>
+          <li><label><input type="checkbox" data-row="yoon_p" /><span>P-Yōon <em>pya pyu pyo</em></span></label></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────── TIMER DURATION ───────────── -->
+  <section class="checklist-section">
+    <div class="checklist-inner">
+      <h2 class="checklist-title">Duração do Timer</h2>
+      <div class="dropdown-wrap">
+        <label for="timerDuration" class="dropdown-label">Segundos por Flashcard</label>
+        <select id="timerDuration" class="dropdown">
+          <option value="1">1s</option>
+          <option value="2">2s</option>
+          <option value="3">3s</option>
+          <option value="4">4s</option>
+          <option value="5" selected>5s</option>
+          <option value="6">6s</option>
+          <option value="7">7s</option>
+          <option value="8">8s</option>
+          <option value="9">9s</option>
+          <option value="10">10s</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────── FONT SECTION ───────────── -->
+  <section class="checklist-section">
+    <div class="checklist-inner">
+      <h2 class="checklist-title">Estilo da fonte</h2>
+      <div class="dropdown-wrap">
+        <label for="charFont" class="dropdown-label">Fonte de exibição</label>
+        <select id="charFont" class="dropdown">
+          <option value="san-serif">Sem serifa</option>
+          <option value="rounded">Arredondada</option>
+          <option value="serif">Com serifa</option>
+          <option value="pixelated">Pixelada</option>
+          <option value="handwritten">Manuscrita</option>
+        </select>
+      </div>
+      <div class="dropdown-wrap">
+        <label class="dropdown-label"><input type="checkbox" id="charBold" /> Negrito</label>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────── CONTROLS / SHORTCUTS ───────────── -->
+  <section class="help-banner">
+    <div class="help-inner">
+      <p class="help-title">Controles e Atalhos</p>
+      <div class="help-grid">
+
+        <div class="help-item">
+          <span class="help-key">Space</span>
+          <span class="help-action">Falar</span>
+          <span class="help-desc">Revelar leitura e tocar áudio</span>
+        </div>
+
+        <div class="help-divider"></div>
+
+        <div class="help-item">
+          <span class="help-key">P</span>
+          <span class="help-action">Iniciar · Parar</span>
+          <span class="help-desc">Iniciar ou pausar o avanço automático</span>
+        </div>
+
+        <div class="help-divider"></div>
+
+        <div class="help-item">
+          <div class="help-keys">
+            <span class="help-key"><i class="fa-solid fa-arrow-right"></i></span>
+            <span class="help-keys-or">ou</span>
+            <span class="help-key">&gt;</span>
+          </div>
+          <span class="help-action">Próximo</span>
+          <span class="help-desc">Ir para o próximo caractere</span>
+        </div>
+
+        <div class="help-divider"></div>
+
+        <div class="help-item">
+          <div class="help-keys">
+            <span class="help-key"><i class="fa-solid fa-arrow-left"></i></span>
+            <span class="help-keys-or">ou</span>
+            <span class="help-key">&lt;</span>
+          </div>
+          <span class="help-action">Anterior</span>
+          <span class="help-desc">Voltar ao caractere anterior</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────── OPENING HOURS BANNER ───────────── -->
+  <section class="hours-banner">
+    <div class="hours-inner">
+      <div class="hours-item">
+        <span class="hours-day">Segunda-feira</span>
+        <span class="hours-time">12:00 – 17:00</span>
+      </div>
+      <div class="hours-divider"></div>
+      <div class="hours-item">
+        <span class="hours-day">Terça a Domingo</span>
+        <span class="hours-time">10:00 – 17:00</span>
+      </div>
+      <div class="hours-divider"></div>
+      <div class="hours-item">
+        <span class="hours-day">1ª Sexta do mês</span>
+        <span class="hours-time">10:00 – 21:00</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────── BOTTOM FOOTER ───────────── -->
+  <footer class="footer">
+    <!-- voice settings -->
+    <div class="footer-voice">
+      <span class="footer-heading">Configurações de voz</span>
+      <div class="footer-voice-controls">
+        <div class="footer-voice-group">
+          <label for="speechRate" class="footer-voice-label">Velocidade</label>
+          <select id="speechRate" class="footer-voice-select">
+            <option value="0.5">0.5×</option>
+            <option value="0.65">0.65×</option>
+            <option value="0.8" selected>0.8×</option>
+            <option value="1.0">1.0×</option>
+            <option value="1.2">1.2×</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- timer bar toggle -->
+    <div class="footer-voice">
+      <span class="footer-heading">Mostrar timer?</span>
+      <div class="footer-voice-controls">
+        <div class="footer-voice-group">
+          <select id="timerBarToggle" class="footer-voice-select">
+            <option value="show" selected>Mostrar</option>
+            <option value="hide">Ocultar</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- bottom bar -->
+    <div class="footer-bar">
+      <span>© 2026 日本のアドバイス · v1.3</span>
+      <nav class="footer-bar-links">
+        <span>Copyright &copy; - DICAS JAP&Atilde;O - Todos os direitos reservados</span>
+        <a href="http://www.ovelhaeletrica.com/blog/contato" target="_blank" rel="noopener">Contato</a> Versão 1.3
+      </nav>
+    </div>
+  </footer>
+
+  <script src="main.js?v=1.3"></script>
+</body>
+</html>

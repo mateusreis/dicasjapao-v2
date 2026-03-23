@@ -1,0 +1,22 @@
+/* Fonts CSS - Version 11 */
+/* Last updated: 2026-02-26 */
+/* Cache busting: Update version in HTML links when modifying this file */
+
+/* ── Local fonts ── */
+
+/* Noto Serif JP - Variable Font */
+@font-face {
+  font-family: 'Noto Serif JP';
+  src: url('./NotoSerifJP-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Anzu Moji 2020 */
+@font-face {
+  font-family: 'Anzu Moji 2020';
+  src: url('./APJapanesefont.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
