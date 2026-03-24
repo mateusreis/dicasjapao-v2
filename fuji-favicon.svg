@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#e8ff00"/>
+  <svg x="4" y="8" width="92" height="82" viewBox="0 0 512 480">
+    <!-- Mountain body -->
+    <path fill="#111111" d="M10,440 C70,420 170,210 256,55 C342,210 442,420 502,440 L512,465 L0,465 Z"/>
+    <!-- Snow cap -->
+    <path fill="white" d="M182,225 C204,163 232,108 256,55 C280,108 308,163 330,225 Q256,188 182,225 Z"/>
+  </svg>
+</svg>
